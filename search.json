@@ -7,60 +7,67 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#getting-up",
-    "href": "module-1/slides/1-introduction.html#getting-up",
-    "title": "Habits",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+    "objectID": "module-1/slides/1-introduction.html#introduction-15-minutes",
+    "href": "module-1/slides/1-introduction.html#introduction-15-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Introduction (15 minutes)",
+    "text": "Introduction (15 minutes)\n\nWelcome and course overview\nBrief introduction to programming"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#breakfast",
-    "href": "module-1/slides/1-introduction.html#breakfast",
-    "title": "Habits",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+    "objectID": "module-1/slides/1-introduction.html#understanding-programming-basics-30-minutes",
+    "href": "module-1/slides/1-introduction.html#understanding-programming-basics-30-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Understanding Programming Basics (30 minutes)",
+    "text": "Understanding Programming Basics (30 minutes)\n\nWhat is a programming language?\nWhy Python?\nIntroduction to Python’s syntax\nBasic concepts: variables, data types, and operators"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#dinner",
-    "href": "module-1/slides/1-introduction.html#dinner",
-    "title": "Habits",
-    "section": "Dinner",
-    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+    "objectID": "module-1/slides/1-introduction.html#setting-up-your-environment-30-minutes",
+    "href": "module-1/slides/1-introduction.html#setting-up-your-environment-30-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Setting Up Your Environment (30 minutes)",
+    "text": "Setting Up Your Environment (30 minutes)\n\nIntroduction to Integrated Development Environments (IDEs)\nOverview of popular Python IDEs (e.g., PyCharm, VSCode, Jupyter Notebook)\nInstalling Python and an IDE\nWriting your first Python script"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#going-to-sleep",
-    "href": "module-1/slides/1-introduction.html#going-to-sleep",
-    "title": "Habits",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep\n\nSession 1: Introduction to Python Programming\n\nIntroduction (15 minutes)\n\nWelcome and course overview Brief introduction to programming 2. Understanding Programming Basics (30 minutes)\nWhat is a programming language? Why Python? Introduction to Python’s syntax Basic concepts: variables, data types, and operators 3. Setting Up Your Environment (30 minutes)\nIntroduction to Integrated Development Environments (IDEs) Overview of popular Python IDEs (e.g., PyCharm, VSCode, Jupyter Notebook) Installing Python and an IDE Writing your first Python script 4. Exploring the Terminal (15 minutes)\nWhat is the terminal (command line interface)? Basic terminal commands (e.g., cd, ls/dir, mkdir, rm) Navigating directories using the terminal 5. Python Basics (45 minutes)\nIntroduction to Python data types (int, float, str, bool) Variables and variable assignment Basic arithmetic operations in Python Understanding strings and string manipulation Boolean values and logical operators 6. Break (15 minutes)\n\nControl Flow in Python (45 minutes)\n\nIntroduction to control structures (if statements, loops) Conditional statements (if, elif, else) Looping structures (while loop, for loop) Using indentation in Python (blocks of code) 8. Hands-On Exercises (30 minutes)\nGuided exercises to reinforce concepts covered Practice writing simple programs Instructor-led walkthrough of solutions 9. Q&A and Conclusion (15 minutes)\nAddressing any remaining questions from participants Summary of key concepts covered Next steps for further learning and practice"
+    "objectID": "module-1/slides/1-introduction.html#exploring-the-terminal-15-minutes",
+    "href": "module-1/slides/1-introduction.html#exploring-the-terminal-15-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Exploring the Terminal (15 minutes)",
+    "text": "Exploring the Terminal (15 minutes)\n\nWhat is the terminal (command line interface)?\nBasic terminal commands (e.g., cd, ls/dir, mkdir, rm)\nNavigating directories using the terminal"
   },
   {
-    "objectID": "module-1/slides/2-layout.html#getting-up",
-    "href": "module-1/slides/2-layout.html#getting-up",
-    "title": "Habits",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+    "objectID": "module-1/slides/1-introduction.html#python-basics-45-minutes",
+    "href": "module-1/slides/1-introduction.html#python-basics-45-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Python Basics (45 minutes)",
+    "text": "Python Basics (45 minutes)\n\nIntroduction to Python data types (int, float, str, bool)\nVariables and variable assignment\nBasic arithmetic operations in Python\nUnderstanding strings and string manipulation\nBoolean values and logical operators"
   },
   {
-    "objectID": "module-1/slides/2-layout.html#breakfast",
-    "href": "module-1/slides/2-layout.html#breakfast",
-    "title": "Habits",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+    "objectID": "module-1/slides/1-introduction.html#break-15-minutes",
+    "href": "module-1/slides/1-introduction.html#break-15-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Break (15 minutes)",
+    "text": "Break (15 minutes)"
   },
   {
-    "objectID": "module-1/slides/2-layout.html#dinner",
-    "href": "module-1/slides/2-layout.html#dinner",
-    "title": "Habits",
-    "section": "Dinner",
-    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+    "objectID": "module-1/slides/1-introduction.html#control-flow-in-python-45-minutes",
+    "href": "module-1/slides/1-introduction.html#control-flow-in-python-45-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Control Flow in Python (45 minutes)",
+    "text": "Control Flow in Python (45 minutes)\n\nIntroduction to control structures (if statements, loops)\nConditional statements (if, elif, else)\nLooping structures (while loop, for loop)\nUsing indentation in Python (blocks of code)"
   },
   {
-    "objectID": "module-1/slides/2-layout.html#going-to-sleep",
-    "href": "module-1/slides/2-layout.html#going-to-sleep",
-    "title": "Habits",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+    "objectID": "module-1/slides/1-introduction.html#hands-on-exercises-30-minutes",
+    "href": "module-1/slides/1-introduction.html#hands-on-exercises-30-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Hands-On Exercises (30 minutes)",
+    "text": "Hands-On Exercises (30 minutes)\n\nGuided exercises to reinforce concepts covered\nPractice writing simple programs\nInstructor-led walkthrough of solutions"
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#qa-and-conclusion-15-minutes",
+    "href": "module-1/slides/1-introduction.html#qa-and-conclusion-15-minutes",
+    "title": "Introduction to module 1 - python and the shell",
+    "section": "Q&A and Conclusion (15 minutes)",
+    "text": "Q&A and Conclusion (15 minutes)\n\nAddressing any remaining questions from participants\nSummary of key concepts covered\nNext steps for further learning and practice"
   },
   {
     "objectID": "module-1/slides/3-python-basics.html#getting-up",
@@ -89,6 +96,34 @@
     "title": "Habits",
     "section": "Going to sleep",
     "text": "Going to sleep\n\nGet in bed\nCount sheep\n\nVariables and Data Types:\nVariables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial. Variables allow you to manipulate and operate on data within your program. Basic Operations and Expressions:\nPython supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, &lt;, &gt;), logical operators (and, or, not), etc. Expressions combine variables, values, and operators to perform a specific computation. Control Flow:\nControl flow structures such as if statements, for loops, and while loops allow you to control the execution of your code based on certain conditions. Understanding how to use these structures enables you to write code that performs different actions under different circumstances. Functions:\nFunctions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular. Understanding how to define, call, and pass arguments to functions is essential. Data Structures:\nPython provides built-in data structures like lists, tuples, dictionaries, and sets. Understanding these data structures and their properties is crucial for efficient data manipulation. Knowledge of when and how to use each data structure based on the requirements of your program is important. Error Handling:\nLearning about exception handling in Python helps you deal with errors that may occur during program execution. This includes using try-except blocks to handle exceptions gracefully. Input and Output:\nKnowing how to read input from users (using input()) and display output (using print()) is fundamental for building interactive programs. Modules and Packages:\nPython’s modular design allows you to organize code into modules and packages. Understanding how to import modules and use functions from external libraries expands the capabilities of your programs. File Handling:\nPython provides various functions for reading from and writing to files. Understanding file handling operations is essential for working with external data. Object-Oriented Programming (OOP) (Optional for beginners but important for intermediate level):"
+  },
+  {
+    "objectID": "module-1/slides/2-layout.html#getting-up",
+    "href": "module-1/slides/2-layout.html#getting-up",
+    "title": "Habits",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "module-1/slides/2-layout.html#breakfast",
+    "href": "module-1/slides/2-layout.html#breakfast",
+    "title": "Habits",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "module-1/slides/2-layout.html#dinner",
+    "href": "module-1/slides/2-layout.html#dinner",
+    "title": "Habits",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "module-1/slides/2-layout.html#going-to-sleep",
+    "href": "module-1/slides/2-layout.html#going-to-sleep",
+    "title": "Habits",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
   },
   {
     "objectID": "about.html",
