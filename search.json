@@ -2,9 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "CWC - lean python",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to the Clinicians who code (CWC) course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
+  },
+  {
+    "objectID": "index.html#modules",
+    "href": "index.html#modules",
+    "title": "CWC - lean python",
+    "section": "Modules",
+    "text": "Modules\n\nModule 1"
   },
   {
     "objectID": "module-1/slides/1-introduction.html#introduction-15-minutes",
@@ -95,7 +102,7 @@
     "href": "module-1/slides/3-python-basics.html#going-to-sleep",
     "title": "Habits",
     "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep\n\nVariables and Data Types:\nVariables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial. Variables allow you to manipulate and operate on data within your program. Basic Operations and Expressions:\nPython supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, &lt;, &gt;), logical operators (and, or, not), etc. Expressions combine variables, values, and operators to perform a specific computation. Control Flow:\nControl flow structures such as if statements, for loops, and while loops allow you to control the execution of your code based on certain conditions. Understanding how to use these structures enables you to write code that performs different actions under different circumstances. Functions:\nFunctions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular. Understanding how to define, call, and pass arguments to functions is essential. Data Structures:\nPython provides built-in data structures like lists, tuples, dictionaries, and sets. Understanding these data structures and their properties is crucial for efficient data manipulation. Knowledge of when and how to use each data structure based on the requirements of your program is important. Error Handling:\nLearning about exception handling in Python helps you deal with errors that may occur during program execution. This includes using try-except blocks to handle exceptions gracefully. Input and Output:\nKnowing how to read input from users (using input()) and display output (using print()) is fundamental for building interactive programs. Modules and Packages:\nPython’s modular design allows you to organize code into modules and packages. Understanding how to import modules and use functions from external libraries expands the capabilities of your programs. File Handling:\nPython provides various functions for reading from and writing to files. Understanding file handling operations is essential for working with external data. Object-Oriented Programming (OOP) (Optional for beginners but important for intermediate level):"
+    "text": "Going to sleep\n\nGet in bed\nCount sheep\n\nVariables and Data Types:\nVariables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial. Variables allow you to manipulate and operate on data within your program.\nNO SPACES\nBasic Operations and Expressions:\nPython supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, &lt;, &gt;), logical operators (and, or, not), etc. Expressions combine variables, values, and operators to perform a specific computation. Control Flow:\nControl flow structures such as if statements, for loops, and while loops allow you to control the execution of your code based on certain conditions. Understanding how to use these structures enables you to write code that performs different actions under different circumstances. Functions:\nFunctions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular. Understanding how to define, call, and pass arguments to functions is essential. Data Structures:\nPython provides built-in data structures like lists, tuples, dictionaries, and sets. Understanding these data structures and their properties is crucial for efficient data manipulation. Knowledge of when and how to use each data structure based on the requirements of your program is important. Error Handling:\nLearning about exception handling in Python helps you deal with errors that may occur during program execution. This includes using try-except blocks to handle exceptions gracefully. Input and Output:\nKnowing how to read input from users (using input()) and display output (using print()) is fundamental for building interactive programs. Modules and Packages:\nPython’s modular design allows you to organize code into modules and packages. Understanding how to import modules and use functions from external libraries expands the capabilities of your programs. File Handling:\nPython provides various functions for reading from and writing to files. Understanding file handling operations is essential for working with external data. Object-Oriented Programming (OOP) (Optional for beginners but important for intermediate level):"
   },
   {
     "objectID": "module-1/slides/2-layout.html#getting-up",
@@ -126,10 +133,17 @@
     "text": "Going to sleep\n\nGet in bed\nCount sheep"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "module-1/index.html",
+    "href": "module-1/index.html",
+    "title": "Module 1",
     "section": "",
-    "text": "About this site\nplaceholder"
+    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies)."
+  },
+  {
+    "objectID": "module-1/index.html#slides",
+    "href": "module-1/index.html#slides",
+    "title": "Module 1",
+    "section": "Slides",
+    "text": "Slides\nChose a slide deck:\n\n1 - introduction\n2 - lay out\n3 - python-basics"
   }
 ]
