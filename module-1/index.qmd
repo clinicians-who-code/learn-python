@@ -1,0 +1,13 @@
+---
+title: "Module 1"
+---
+
+This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies).
+
+## Slides
+
+Chose a slide deck:
+
+* [1 - introduction](slides/1-introduction.qmd)
+* [2 - lay out](slides/2-layout.qmd)
+* [3 - python-basics](slides/3-python-basics.qmd)

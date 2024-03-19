@@ -1,7 +1,9 @@
 ---
-title: "website"
+title: "CWC - lean python"
 ---
 
-This is a Quarto website.
+Welcome to the Clinicians who code (CWC) course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Modules
+
+* [Module 1](module-1/index.qmd)

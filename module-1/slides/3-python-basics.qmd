@@ -32,6 +32,10 @@ Variables and Data Types:
 
 Variables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial.
 Variables allow you to manipulate and operate on data within your program.
+
+NO SPACES
+
+
 Basic Operations and Expressions:
 
 Python supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, <, >), logical operators (and, or, not), etc.
