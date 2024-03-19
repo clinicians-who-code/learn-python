@@ -1,0 +1,64 @@
+---
+title: "Introduction to module 1 - python and the shell"
+author: "Mark Bailey"
+format: revealjs
+logo: /images/cwc-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /images/python-scales.jpg
+
+---
+
+## Introduction (15 minutes)
+
+* Welcome and course overview
+* Brief introduction to programming
+
+## Understanding Programming Basics (30 minutes)
+
+* What is a programming language?
+* Why Python?
+* Introduction to Python's syntax
+* Basic concepts: variables, data types, and operators
+
+## Setting Up Your Environment (30 minutes)
+
+* Introduction to Integrated Development Environments (IDEs)
+* Overview of popular Python IDEs (e.g., PyCharm, VSCode, Jupyter Notebook)
+* Installing Python and an IDE
+* Writing your first Python script
+
+## Exploring the Terminal (15 minutes)
+
+* What is the terminal (command line interface)?
+* Basic terminal commands (e.g., cd, ls/dir, mkdir, rm)
+* Navigating directories using the terminal
+
+## Python Basics (45 minutes)
+
+* Introduction to Python data types (int, float, str, bool)
+* Variables and variable assignment
+* Basic arithmetic operations in Python
+* Understanding strings and string manipulation
+* Boolean values and logical operators
+
+## Break (15 minutes)
+
+## Control Flow in Python (45 minutes)
+
+* Introduction to control structures (if statements, loops)
+* Conditional statements (if, elif, else)
+* Looping structures (while loop, for loop)
+* Using indentation in Python (blocks of code)
+
+## Hands-On Exercises (30 minutes)
+
+* Guided exercises to reinforce concepts covered
+* Practice writing simple programs
+* Instructor-led walkthrough of solutions
+
+## Q&A and Conclusion (15 minutes)
+
+* Addressing any remaining questions from participants
+* Summary of key concepts covered
+* Next steps for further learning and practice
