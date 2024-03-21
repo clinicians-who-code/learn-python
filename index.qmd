@@ -1,5 +1,5 @@
 ---
-title: "CWC - lean python"
+title: "learn python"
 ---
 
 Welcome to the Clinicians who code (CWC) course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer.

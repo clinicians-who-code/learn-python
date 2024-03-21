@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Mark Bailey">
 
-<title>CWC - Python basics</title>
+<title>website - Module 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/cwc-logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,8 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<link rel="stylesheet" href="../../slides.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -81,8 +78,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">CWC</span>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">website</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="dropdown-header">
@@ -113,44 +110,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#in-the-morning" id="toc-in-the-morning" class="nav-link active" data-scroll-target="#in-the-morning">In the morning</a>
-  <ul class="collapse">
-  <li><a href="#getting-up" id="toc-getting-up" class="nav-link" data-scroll-target="#getting-up">Getting up</a></li>
-  <li><a href="#breakfast" id="toc-breakfast" class="nav-link" data-scroll-target="#breakfast">Breakfast</a></li>
-  </ul></li>
-  <li><a href="#in-the-evening" id="toc-in-the-evening" class="nav-link" data-scroll-target="#in-the-evening">In the evening</a>
-  <ul class="collapse">
-  <li><a href="#dinner" id="toc-dinner" class="nav-link" data-scroll-target="#dinner">Dinner</a></li>
-  <li><a href="#going-to-sleep" id="toc-going-to-sleep" class="nav-link" data-scroll-target="#going-to-sleep">Going to sleep</a></li>
-  <li><a href="#basic-operations-and-expressions" id="toc-basic-operations-and-expressions" class="nav-link" data-scroll-target="#basic-operations-and-expressions">Basic Operations and Expressions:</a></li>
-  <li><a href="#control-flow" id="toc-control-flow" class="nav-link" data-scroll-target="#control-flow">Control Flow:</a></li>
-  <li><a href="#functions" id="toc-functions" class="nav-link" data-scroll-target="#functions">Functions:</a></li>
-  <li><a href="#data-structures" id="toc-data-structures" class="nav-link" data-scroll-target="#data-structures">Data Structures:</a></li>
-  <li><a href="#error-handling" id="toc-error-handling" class="nav-link" data-scroll-target="#error-handling">Error Handling:</a></li>
-  <li><a href="#file-handling" id="toc-file-handling" class="nav-link" data-scroll-target="#file-handling">File Handling:</a></li>
-  </ul></li>
+  <li><a href="#chose-a-slide-deck" id="toc-chose-a-slide-deck" class="nav-link active" data-scroll-target="#chose-a-slide-deck">Chose a slide deck</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="3-python-basics.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Python basics</h1>
-<p class="subtitle lead">Module 1</p>
+<h1 class="title">Module 1</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Mark Bailey </p>
-          </div>
-  </div>
     
   
     
@@ -161,70 +136,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="in-the-morning" class="level1">
-<h1>In the morning</h1>
-<section id="getting-up" class="level2">
-<h2 class="anchored" data-anchor-id="getting-up">Getting up</h2>
+<p>This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies).</p>
+<section id="chose-a-slide-deck" class="level2">
+<h2 class="anchored" data-anchor-id="chose-a-slide-deck">Chose a slide deck</h2>
 <ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
+<li>
+<a href="slides/1-introduction.html" target="_blank">1 - Introduction</a>
+</li>
+<li>
+<a href="slides/2-coding-environment.html" target="_blank">2 - Coding environment</a>
+</li>
+<li>
+<a href="slides/3-python-basics.html" target="_blank">3 - Python basics</a>
+</li>
 </ul>
-</section>
-<section id="breakfast" class="level2">
-<h2 class="anchored" data-anchor-id="breakfast">Breakfast</h2>
-<ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
-</ul>
-</section>
-</section>
-<section id="in-the-evening" class="level1">
-<h1>In the evening</h1>
-<section id="dinner" class="level2">
-<h2 class="anchored" data-anchor-id="dinner">Dinner</h2>
-<ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
-</ul>
-</section>
-<section id="going-to-sleep" class="level2">
-<h2 class="anchored" data-anchor-id="going-to-sleep">Going to sleep</h2>
-<ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
-</ul>
-<p>Variables and Data Types:</p>
-<p>Variables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial. Variables allow you to manipulate and operate on data within your program.</p>
-<p>NO SPACES</p>
-</section>
-<section id="basic-operations-and-expressions" class="level2">
-<h2 class="anchored" data-anchor-id="basic-operations-and-expressions">Basic Operations and Expressions:</h2>
-<p>Python supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, &lt;, &gt;), logical operators (and, or, not), etc. Expressions combine variables, values, and operators to perform a specific computation.</p>
-</section>
-<section id="control-flow" class="level2">
-<h2 class="anchored" data-anchor-id="control-flow">Control Flow:</h2>
-<p>Control flow structures such as if statements, for loops, and while loops allow you to control the execution of your code based on certain conditions. Understanding how to use these structures enables you to write code that performs different actions under different circumstances.</p>
-</section>
-<section id="functions" class="level2">
-<h2 class="anchored" data-anchor-id="functions">Functions:</h2>
-<p>Functions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular. Understanding how to define, call, and pass arguments to functions is essential.</p>
-</section>
-<section id="data-structures" class="level2">
-<h2 class="anchored" data-anchor-id="data-structures">Data Structures:</h2>
-<p>Python provides built-in data structures like lists, tuples, dictionaries, and sets. Understanding these data structures and their properties is crucial for efficient data manipulation. Knowledge of when and how to use each data structure based on the requirements of your program is important.</p>
-</section>
-<section id="error-handling" class="level2">
-<h2 class="anchored" data-anchor-id="error-handling">Error Handling:</h2>
-<p>Learning about exception handling in Python helps you deal with errors that may occur during program execution. This includes using try-except blocks to handle exceptions gracefully. Input and Output:</p>
-<p>Knowing how to read input from users (using input()) and display output (using print()) is fundamental for building interactive programs. Modules and Packages:</p>
-<p>Python’s modular design allows you to organize code into modules and packages. Understanding how to import modules and use functions from external libraries expands the capabilities of your programs.</p>
-</section>
-<section id="file-handling" class="level2">
-<h2 class="anchored" data-anchor-id="file-handling">File Handling:</h2>
-<p>Python provides various functions for reading from and writing to files. Understanding file handling operations is essential for working with external data. Object-Oriented Programming (OOP) (Optional for beginners but important for intermediate level):</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

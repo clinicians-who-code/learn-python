@@ -6,7 +6,6 @@ logo: /images/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
     data-background-image: /images/python-scales.jpg
-
 ---
 
 ## Introduction (15 minutes)
