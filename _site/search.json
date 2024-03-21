@@ -59,8 +59,8 @@
     "objectID": "module-1/slides/1-introduction.html#introduction-15-minutes",
     "href": "module-1/slides/1-introduction.html#introduction-15-minutes",
     "title": "Introduction to module 1 - python and the shell",
-    "section": "",
-    "text": "Welcome and course overview\nBrief introduction to programming"
+    "section": "Introduction (15 minutes)",
+    "text": "Introduction (15 minutes)\n\nWelcome and course overview\nBrief introduction to programming"
   },
   {
     "objectID": "module-1/slides/1-introduction.html#understanding-programming-basics-30-minutes",
@@ -123,7 +123,7 @@
     "href": "module-1/index.html",
     "title": "Module 1",
     "section": "",
-    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies)."
+    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies).\nBLAH BLAH"
   },
   {
     "objectID": "module-1/index.html#slides",

@@ -4,8 +4,6 @@ title: "Module 1"
 
 This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies).
 
-BLAH BLAH
-
 ## Chose a slide deck
 
 <ul>
