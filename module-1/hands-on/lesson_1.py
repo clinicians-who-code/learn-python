@@ -1,3 +1,3 @@
-"""Lesson 1"""
+"""Lesson 1 """
 
 print("Hello world!")
