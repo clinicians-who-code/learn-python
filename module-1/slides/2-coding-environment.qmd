@@ -84,6 +84,11 @@ highlight-style: tango
     * More advanced functionalities
 
 
+## OK, why learn to code?
+
+* TBC
+
+
 ## Variables
 
 * A single variable is a space in the computer's memory.

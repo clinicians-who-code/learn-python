@@ -8,6 +8,10 @@ title-slide-attributes:
     data-background-image: /images/python-scales.jpg
 ---
 
+## WHY LEARN TO CODE!
+
+WHY LEARN TO CODE!
+
 ## Introduction (15 minutes)
 
 * Welcome and course overview
