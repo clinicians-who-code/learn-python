@@ -1,0 +1,120 @@
+---
+title: "Coding environment (and the shell)"
+subtitle: Module 1
+author: "Clinicians who code"
+format: revealjs
+logo: /images/cwc-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /images/egg-shells.jpg
+    data-background-opacity: "0.5"
+---
+
+# The coding environment
+
+
+## Today's hands-on sessions
+
+* We will be using the GitHub `Codespace` development environment.
+* This is a browser version of the well known desktop `VS Code` development environment.
+* In the context of this course, a development environment should be synonymous with the `teaching environment`.
+
+
+## <span class="hide-title">Codespace light theme</span>
+
+![](/images/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+## <span class="hide-title">Codespace dark theme</span>
+
+![](/images/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+## <span class="hide-title">Codespace layout</span>
+
+![](/images/codespace-description.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+# Useful terminal (shell) commands
+
+<img src="/images/the-shell.png" alt="The shell" style="border:1px solid black;">
+
+## Commands
+
+* A command is a piece of code that carries out a `specific task`.
+* These tasks can be as simple as showing you what folder you are in to printing, changing settings, and updating the operating system.
+
+
+## Using the terminal {.smaller}
+
+* Also called the `command line interface` (`CLI`) or the `shell`.
+
+Steps:
+
+* `Select the terminal` (aka click on it).
+* `Type in your command` (this needs to be typed out **exactly**).
+* `Press enter` to run the command.
+
+Pro tip:
+
+* If you want to run a previously run command, you can select it with the &#8593; and 
+&#8595; arrow keys on the keyboard.
+
+
+## List files and folders command
+
+* The `ls` command.
+
+
+<img src="/images/command-ls.png" alt="The shell" style="border:1px solid black;">
+
+
+## Change directory command
+
+* The `cd` command.
+* `cd ..` takes you back to the previous (parent) folder.
+
+
+<img src="/images/command-cd.png" alt="The shell" style="border:1px solid black;">
+
+## Where am I?
+
+* `pwd` is the `print working directory` command.
+
+
+<img src="/images/command-pwd.png" alt="The shell" style="border:1px solid black;">
+
+
+# Time to try it out for yourself
+
+## LiveShare
+
+* We will be using liveshare for the `hands-on` learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment.
+
+
+![](/images/liveshare.png){width="max" height="max" border-width="1"}
+
+## <span class="hide-title">Codespace view</span>
+
+![](/images/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
+
+## Lession 1 {.smaller}
+
+* Join your tutor group in the `Zoom break out rooms`.
+* `Follow the link` to the online learning environment (Codespace).
+* Change the directory (don't type the `$`. This is just how we show this is the command line):
+
+```
+    $ cd /workspaces/learn-python/{your_name}/module-1/hands-on
+```
+
+* Replace `{your_name}` with your own name in the format `firstname underscore lastname`, eg `john_doe`.
+* Run the following command in the new directory 
+
+```
+    $ python3 lession_1.py
+```
+
+* Any problems, just ask your tutor for help. 
+* **There is no such thing as a stupid question, only the question left unanswered.**
+* We will give you 20 minutes for lession 1.

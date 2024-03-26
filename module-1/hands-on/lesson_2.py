@@ -1,4 +1,4 @@
-"""Lesson 1"""
+"""Lesson 2"""
 
 """Ignore this code up until..."""
 import answers.lesson_1_anwers as answers
@@ -6,9 +6,9 @@ import answers.lesson_1_anwers as answers
 all_correct = True
 
 
-def statement(question, answer):
+def statement(Exercise, answer):
     global all_correct
-    if not answers.statement(question, answer):
+    if not answers.statement(Exercise, answer):
         all_correct = False
     return
 
@@ -32,7 +32,7 @@ print(fruit_prices.get_price("pear"))
 
 """START HERE!"""
 
-""" Question 1
+""" Exercise 1
     What is a comment? Uncomment the correct answer below
 """
 
@@ -42,31 +42,31 @@ print(fruit_prices.get_price("pear"))
 # statement("a comment is", "used to provide helpful information for your later self and others to better understand your code at a later date")
 # statement("a comment is", "a fish")
 
-""" Question 2
+""" Exercise 2
     What is a variable?
 """
 
-""" Question 3
+""" Exercise 3
     What is a type?
 """
 
-""" Question 4
+""" Exercise 4
     What is flow control
 """
 
-""" Question 
+""" Exercise 
     
 """
 
-""" Question 
+""" Exercise 
     
 """
 
-""" Question 
+""" Exercise 
     
 """
 
-""" Question 
+""" Exercise 
     
 """
 

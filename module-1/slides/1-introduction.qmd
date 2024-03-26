@@ -1,67 +1,64 @@
 ---
-title: "Introduction to module 1 - python and the shell"
-author: "Mark Bailey"
+title: "Clinicians-who-code course - module 1 - Where is the on switch?"
+author: "Clinicians who code"
 format: revealjs
 logo: /images/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /images/python-scales.jpg
+    data-background-video: "/images/waves-on-beach.mp4"
+    data-background-video-loop: true
 ---
 
-## WHY LEARN TO CODE!
 
-WHY LEARN TO CODE!
+## Introduction {background-image="/images/welcome-sign.jpg" background-opacity="0.4"}
 
-## Introduction (15 minutes)
+* Welcome and thank you for joining our course.
+* We hope you enjoy the course and find it helpful.
+* There are plans for further, more advanced courses, in the near future.
+* Please provide feedback at the end of the course, so we can help improve things further.
 
-* Welcome and course overview
-* Brief introduction to programming
 
-## Understanding Programming Basics (30 minutes)
+## The coding environment {background-image="/images/bamboo-woods.jpg" background-opacity="0.2"}
 
-* What is a programming language?
-* Why Python?
-* Introduction to Python's syntax
-* Basic concepts: variables, data types, and operators
+* We will explore the development (teaching) environment.
+* Get you connected to the development environment.
+* Get you running some common command line functions in `Lession 1`.
 
-## Setting Up Your Environment (30 minutes)
 
-* Introduction to Integrated Development Environments (IDEs)
-* Overview of popular Python IDEs (e.g., PyCharm, VSCode, Jupyter Notebook)
-* Installing Python and an IDE
-* Writing your first Python script
+## Python Basics {.smaller}
 
-## Exploring the Terminal (15 minutes)
+* How do we communicate with computers.
+* Introduction to the python programming language.
+* Learn about:
+    * Syntax
+    * Variables
+    * Operators
+    * Control flow
+    * Functions
+    * Error handling
+* Then get you programming in `Lesson 2`.
 
-* What is the terminal (command line interface)?
-* Basic terminal commands (e.g., cd, ls/dir, mkdir, rm)
-* Navigating directories using the terminal
 
-## Python Basics (45 minutes)
+## Why learn to code? {background-image="/images/why.jpg" background-opacity="0.3"}
 
-* Introduction to Python data types (int, float, str, bool)
-* Variables and variable assignment
-* Basic arithmetic operations in Python
-* Understanding strings and string manipulation
-* Boolean values and logical operators
+* We learn biology and anatomy at university to understand and practice clinical medicine, why not the base subject to understand and practice digital medicine?
+* Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.
+* However, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects.
 
-## Break (15 minutes)
 
-## Control Flow in Python (45 minutes)
+## How can you use your coding skills in health care?
 
-* Introduction to control structures (if statements, loops)
-* Conditional statements (if, elif, else)
-* Looping structures (while loop, for loop)
-* Using indentation in Python (blocks of code)
+* Data analytics
+* Building apps
+* Data transfer
+* Automate routine tasks
+* Help lead a software development team with knowledge of both digital and clinical aspects.
 
-## Hands-On Exercises (30 minutes)
 
-* Guided exercises to reinforce concepts covered
-* Practice writing simple programs
-* Instructor-led walkthrough of solutions
+* Indeed anything digital
 
-## Q&A and Conclusion (15 minutes)
+## Tutor groups {background-image="/images/teacher-and-blackboard.jpg" background-opacity="0.6"}
 
-* Addressing any remaining questions from participants
-* Summary of key concepts covered
-* Next steps for further learning and practice
+* Has everyone been placed in a tutor group?
+
+## Off we go to the shell {background-image="/images/horses-galloping.jpg" background-opacity="0.6"}
