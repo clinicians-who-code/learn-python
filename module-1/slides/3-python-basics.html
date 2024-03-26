@@ -11,7 +11,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.551">
 
-  <meta name="author" content="Mark Bailey">
+  <meta name="author" content="Clinicians who code">
   <title>CWC - Python basics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../../slides.css">
@@ -334,78 +399,480 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Mark Bailey 
+Clinicians who code 
 </div>
 </div>
 </div>
 
 </section>
-<section>
-<section id="in-the-morning" class="title-slide slide level1 center">
-<h1>In the morning</h1>
-
-</section>
-<section id="getting-up" class="slide level2">
-<h2>Getting up</h2>
+<section id="what-are-computers" class="slide level2" data-background-image="../../images/yes-no-hands.jpg" data-background-opacity="0.3">
+<h2>What are computers?</h2>
 <ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
+<li>At its core, a computer is essentially a device that answers <code>yes-no questions</code>.</li>
+<li>It answers these simple questions very very quickly.</li>
+<li>By asking the computer millions of these yes-no questions, it can calculate answers to very complex questions.</li>
 </ul>
 </section>
-<section id="breakfast" class="slide level2">
-<h2>Breakfast</h2>
+<section id="how-do-computers-think" class="slide level2 smaller" data-background-image="../../images/old-computer.jpg" data-background-opacity="0.3">
+<h2>How do computers think?</h2>
 <ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
+<li>Confused by the last statement? Let me expand…</li>
+<li>Computers have lots of components to enable them to work.
+<ul>
+<li>Screen to show you its output.</li>
+<li>Keyboard and mouse to allow you to communicate with the computer.</li>
+<li>Inside the computer’s chassis:
+<ul>
+<li>Hard drives</li>
+<li>Memory sticks</li>
+<li>Fans</li>
+<li>Power supplies</li>
+<li>Motherboards</li>
+<li>Processors</li>
+</ul></li>
+</ul></li>
+<li>The processor of a computer is where all of the <code>thinking</code> takes place.</li>
+</ul>
+</section>
+<section id="how-do-computers-think-1" class="slide level2" data-background-image="../../images/old-computer.jpg" data-background-opacity="0.3">
+<h2>How do computers think?</h2>
+<ul>
+<li>The processor is where these <code>yes-no questions</code> are undertaken.</li>
+<li>The processor receives instructions in <code>binary</code> form.</li>
+<li>Binary is basically a string of <code>1</code>s and <code>0</code>s (eg 01001011).</li>
+<li>As modern computers communicate in binary (yes-no) form, they are said to be <code>digital</code>.</li>
+<li>The processor reads these binary instructions.</li>
+<li>Each instruction results in either a <code>True</code> or <code>False</code> <em>answer</em> (aka <code>yes-no answer</code>). The <code>output</code> (aka <em>answer</em>) is also in binary.</li>
+</ul>
+</section>
+<section id="so-how-do-we-communicate-with-computers" class="slide level2" data-background-image="../../images/digital-self.jpg" data-background-opacity="0.3">
+<h2>So how do we communicate with computers?</h2>
+<ul>
+<li>So computers listen, think and talk in binary.</li>
+<li>We need a method to communicate with them, to get them to do what we want them to do.</li>
+<li>This is where programming languages come into play.</li>
+</ul>
+</section>
+<section id="programming-languages" class="slide level2 smaller" data-background-image="../../images/syntax-hard.jpg" data-background-opacity="0.2">
+<h2>Programming languages</h2>
+<ul>
+<li>There are over 9000 programming languages, but much less than this in routine use.</li>
+<li>A programming language is written in <em>somewhat</em> of a human readable form (depends on the langauge).</li>
+<li>Popular langauges include:
+<ul>
+<li>Javascript / typescript</li>
+<li>C++</li>
+<li>Go</li>
+<li>Java</li>
+<li>Swift</li>
+<li>R</li>
+<li>Python</li>
+</ul></li>
+</ul>
+</section>
+<section id="translation" class="slide level2">
+<h2>Translation</h2>
+<ul>
+<li>When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into <code>1</code>s and <code>0</code>s which the computer can then read and act upon.</li>
+</ul>
+</section>
+<section>
+<section id="ok-so-you-can-write-some-code.-what-do-you-put-in-the-code.-how-do-you-tell-the-computer-what-to-do" class="title-slide slide level1 center">
+<h1><span style="font-size: smaller;">OK, so you can write some code. What do you put in the code. How do you tell the computer what to do?</span></h1>
+
+</section>
+<section id="what-is-in-a-code" class="slide level2">
+<h2>What is in a code?</h2>
+<ul>
+<li>You need different elements in your code to be able to tell the computer what to do. These include:
+<ul>
+<li>Variables</li>
+<li>Operators</li>
+<li>Expressions</li>
+<li>Flow control</li>
+<li>Functions</li>
+<li>Error handling</li>
+<li>More advanced functionalities</li>
+</ul></li>
+</ul>
+</section>
+<section id="variables" class="slide level2">
+<h2>Variables</h2>
+<ul>
+<li>A single variable is a set space in the computer’s memory.</li>
+<li>Simple in-built variables include:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>variables_simple.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="variables_simple.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>a_string <span class="op">=</span> <span class="st">"I am a string"</span></span>
+<span id="cb1-2"><a></a>an_integer <span class="op">=</span> <span class="dv">11</span></span>
+<span id="cb1-3"><a></a>a_float <span class="op">=</span> <span class="fl">8.04</span></span>
+<span id="cb1-4"><a></a>a_boolean <span class="op">=</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="variables-1" class="slide level2">
+<h2>Variables</h2>
+<ul>
+<li>More complex variables include:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>variables_more_complex.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="variables_more_complex.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>a_list <span class="op">=</span> [<span class="st">"first element of list"</span>, <span class="st">"second element of list"</span>]</span>
+<span id="cb2-2"><a></a>another_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">3</span>, <span class="dv">6</span>]</span>
+<span id="cb2-3"><a></a>a_dictionary <span class="op">=</span> {</span>
+<span id="cb2-4"><a></a>    <span class="st">"1st key"</span>: <span class="st">"1st value"</span>,</span>
+<span id="cb2-5"><a></a>    <span class="st">"2nd key"</span>: <span class="st">"2nd value"</span>,</span>
+<span id="cb2-6"><a></a>}</span>
+<span id="cb2-7"><a></a>a_tuple <span class="op">=</span> (<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">7</span>)</span>
+<span id="cb2-8"><a></a>a_set <span class="op">=</span> {<span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">3</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="spaces" class="slide level2">
+<h2>Spaces</h2>
+<ul>
+<li>Variables names <strong>cannot have spaces</strong>, if you add a space, the computer will read this as two separate variables:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>spaces.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="spaces.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>variable_a <span class="op">=</span> <span class="st">"I am a variable"</span></span>
+<span id="cb3-2"><a></a>variable b <span class="op">=</span> <span class="st">"The added space will cause an error"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Syntax error:</p>
+<pre><code>    Cell In[1], line 2
+        variable b = "The added space will cause an error"
+                 ^
+    SyntaxError: invalid syntax</code></pre>
+</section>
+<section id="double-or-single-quotation-marks" class="slide level2">
+<h2>Double or single quotation marks?</h2>
+<ul>
+<li>You will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>quotation_marks.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb5" data-filename="quotation_marks.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>variable_a <span class="op">=</span> <span class="st">"All good here with two single qoutation marks"</span></span>
+<span id="cb5-2"><a></a>variable_b <span class="op">=</span> <span class="st">"I have the wrong matching qoutation marks'</span></span>
+<span id="cb5-3"><a></a><span class="er">variable_c = 'Single qoutation marks'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>Suddenly <code>variable_c</code> is part of the string for <code>variable_b</code></li>
+</ul>
+</section>
+<section id="using-both-types-of-quotation-marks" class="slide level2">
+<h2>Using both types of Quotation marks</h2>
+<ul>
+<li>You can embed quotation marks within each other</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>quotation_marks.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb6" data-filename="quotation_marks.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>variable_a <span class="op">=</span> <span class="st">"I want to highlight 'this' word"</span></span>
+<span id="cb6-2"><a></a>variable_b <span class="op">=</span> <span class="st">'I would like to show you "this"'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indentation" class="slide level2">
+<h2>Indentation</h2>
+<ul>
+<li>Python is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of <code>tabs</code>) of expressions shows the computer which previous expression it relates to.</li>
+</ul>
+</section>
+<section id="indentation-1" class="slide level2">
+<h2>Indentation</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>indentation.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="indentation.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="cf">if</span> drug_prescribed <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb7-2"><a></a>    <span class="cf">if</span> drug_given <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb7-3"><a></a>        record_drug_given <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb7-4"><a></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed and given to the patient"</span>)</span>
+<span id="cb7-5"><a></a>    <span class="cf">else</span>:</span>
+<span id="cb7-6"><a></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed but not given"</span>)</span>
+<span id="cb7-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb7-8"><a></a>    <span class="bu">print</span>(<span class="st">"Drug has not been prescribed"</span>)</span>
+<span id="cb7-9"><a></a></span>
+<span id="cb7-10"><a></a><span class="bu">print</span>(<span class="st">"Drug round complete!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output (if drug has been prescribed and given)</p>
+<pre><code>    Drug has been prescribed and given to the patient
+    Drug round complete!</code></pre>
+</section>
+<section id="indentation-2" class="slide level2">
+<h2>Indentation</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>indentation.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb9" data-filename="indentation.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a><span class="cf">if</span> drug_prescribed <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb9-2"><a></a>    <span class="cf">if</span> drug_given <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb9-3"><a></a>        record_drug_given <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb9-4"><a></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed and given to the patient"</span>)</span>
+<span id="cb9-5"><a></a>    <span class="cf">else</span>:</span>
+<span id="cb9-6"><a></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed but not given"</span>)</span>
+<span id="cb9-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb9-8"><a></a>    <span class="bu">print</span>(<span class="st">"Drug has not been prescribed"</span>)</span>
+<span id="cb9-9"><a></a></span>
+<span id="cb9-10"><a></a>    <span class="bu">print</span>(<span class="st">"Drug round complete!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output (if drug has been prescribed and given)</p>
+<pre><code>    Drug has been prescribed and given to the patient</code></pre>
+</section>
+<section id="naming-conventions" class="slide level2 smaller">
+<h2>Naming conventions</h2>
+<ul>
+<li>There are several naming conventions for programming languages. In python, conventions are:
+<ul>
+<li>Variables, functions and methods
+<ul>
+<li><code>snake_case</code></li>
+</ul></li>
+<li>Contants
+<ul>
+<li><code>CONSTANT_CASE</code></li>
+</ul></li>
+<li>Classes (a higher organisation method in python)
+<ul>
+<li><code>CamelCase</code></li>
+</ul></li>
+<li>Modules (a file with python code inside)
+<ul>
+<li><code>snake_case</code></li>
+</ul></li>
+<li>Packages (a collection of modules)
+<ul>
+<li><code>lowercasepackagenames</code></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="basic-operators" class="slide level2">
+<h2>Basic Operators</h2>
+<ul>
+<li>Operators manipulate and compare data (which are stored in variables). Operator types include:
+<ul>
+<li>Arithmetic: <code>+ - * /</code></li>
+<li>Comparison: <code>== &gt; &lt;</code></li>
+<li>Logical: <code>and or not</code></li>
+<li>Assignment: <code>= += -= *=</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="more-advanced-operators" class="slide level2">
+<h2>More Advanced Operators</h2>
+<ul>
+<li>These include:
+<ul>
+<li>Bitwise: <code>&amp; | ^ &lt;&lt; &gt;&gt;</code></li>
+<li>Membership: <code>in   not in</code></li>
+<li>Identity: <code>is   is not</code></li>
+</ul></li>
 </ul>
 </section></section>
 <section>
-<section id="in-the-evening" class="title-slide slide level1 center">
-<h1>In the evening</h1>
+<section id="ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" class="title-slide slide level1 center">
+<h1><span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span></h1>
 
 </section>
-<section id="dinner" class="slide level2">
-<h2>Dinner</h2>
+<section id="control-flow---if-statements" class="slide level2">
+<h2>Control flow - if statements</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>if_statement.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb11" data-filename="if_statement.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>sky <span class="op">=</span> <span class="st">"dark"</span></span>
+<span id="cb11-2"><a></a></span>
+<span id="cb11-3"><a></a><span class="cf">if</span> sky <span class="op">==</span> <span class="st">"blue"</span>:</span>
+<span id="cb11-4"><a></a>    time_of_day <span class="op">=</span> <span class="st">"day time"</span></span>
+<span id="cb11-5"><a></a><span class="cf">elif</span> sky <span class="op">==</span> <span class="st">"grey"</span></span>
+<span id="cb11-6"><a></a>    time_of_day <span class="op">=</span> <span class="st">"dusk or dawn"</span></span>
+<span id="cb11-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb11-8"><a></a>    time_of_day <span class="op">=</span> <span class="st">"night time"</span></span>
+<span id="cb11-9"><a></a></span>
+<span id="cb11-10"><a></a><span class="bu">print</span>(<span class="st">"Time of day is: "</span>, time_of_day)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    Time of day is: night time</code></pre>
+</section>
+<section id="control-flow---for-loops" class="slide level2">
+<h2>Control flow - for loops</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>for_loop.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb13" data-filename="for_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>list_of_numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb13-2"><a></a></span>
+<span id="cb13-3"><a></a><span class="cf">for</span> number <span class="kw">in</span> list_of_numbers:</span>
+<span id="cb13-4"><a></a>    <span class="bu">print</span>(number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5</code></pre>
+</section>
+<section id="control-flow---while-loops" class="slide level2">
+<h2>Control flow - while loops</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>while_loop.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb15" data-filename="while_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb15-2"><a></a></span>
+<span id="cb15-3"><a></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
+<span id="cb15-4"><a></a>    <span class="bu">print</span>(count)</span>
+<span id="cb15-5"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5</code></pre>
+</section>
+<section id="functions-methods" class="slide level2">
+<h2>Functions (methods)</h2>
 <ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
+<li>Blocks of reusable code that perform a specific task.</li>
+<li>Help in organizing code and making it more modular.</li>
+<li>Part of the <code>DRY</code> (<code>don't repeat yourself</code>) philosophy.</li>
+<li>A <code>method</code> is just a function, used within a class (a higher organisation method in python).</li>
 </ul>
 </section>
-<section id="going-to-sleep" class="slide level2">
-<h2>Going to sleep</h2>
+<section id="functions-methods-1" class="slide level2">
+<h2>Functions (methods)</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb17" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb17-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
+<span id="cb17-3"><a></a>    another_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
+<span id="cb17-4"><a></a></span>
+<span id="cb17-5"><a></a>    <span class="bu">print</span> (a_variable)</span>
+<span id="cb17-6"><a></a></span>
+<span id="cb17-7"><a></a>    <span class="cf">return</span> another_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="other-things-to-be-aware-of" class="slide level2 smaller">
+<h2>Other things to be aware of</h2>
 <ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
+<li>There are several other organisational practices in python, but we will leave these for another day.</li>
+<li>Just so you are aware, these are:
+<ul>
+<li>classes</li>
+<li>modules</li>
+<li>packages</li>
+</ul></li>
+<li>There are also some fancy syntax practices,</li>
+<li>Reading inputs from the terminal,</li>
+<li>File handling, and</li>
+<li>Object oriented programming.</li>
 </ul>
-<p>Variables and Data Types:</p>
-<p>Variables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial. Variables allow you to manipulate and operate on data within your program.</p>
-<p>NO SPACES</p>
-</section>
-<section id="basic-operations-and-expressions" class="slide level2">
-<h2>Basic Operations and Expressions:</h2>
-<p>Python supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, &lt;, &gt;), logical operators (and, or, not), etc. Expressions combine variables, values, and operators to perform a specific computation.</p>
-</section>
-<section id="control-flow" class="slide level2">
-<h2>Control Flow:</h2>
-<p>Control flow structures such as if statements, for loops, and while loops allow you to control the execution of your code based on certain conditions. Understanding how to use these structures enables you to write code that performs different actions under different circumstances.</p>
-</section>
-<section id="functions" class="slide level2">
-<h2>Functions:</h2>
-<p>Functions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular. Understanding how to define, call, and pass arguments to functions is essential.</p>
-</section>
-<section id="data-structures" class="slide level2">
-<h2>Data Structures:</h2>
-<p>Python provides built-in data structures like lists, tuples, dictionaries, and sets. Understanding these data structures and their properties is crucial for efficient data manipulation. Knowledge of when and how to use each data structure based on the requirements of your program is important.</p>
 </section>
 <section id="error-handling" class="slide level2">
-<h2>Error Handling:</h2>
-<p>Learning about exception handling in Python helps you deal with errors that may occur during program execution. This includes using try-except blocks to handle exceptions gracefully. Input and Output:</p>
-<p>Knowing how to read input from users (using input()) and display output (using print()) is fundamental for building interactive programs. Modules and Packages:</p>
-<p>Python’s modular design allows you to organize code into modules and packages. Understanding how to import modules and use functions from external libraries expands the capabilities of your programs.</p>
+<h2>Error Handling</h2>
+<ul>
+<li>Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of your time <code>debugging</code>.</li>
+<li><code>Debugging</code> is the practice of looking for bugs (errors in the code) and trying to fix them.</li>
+<li>When an error happens in python, an <code>exception</code> is raised. You then use the <code>traceback</code> to try and find the cause of the error.</li>
+</ul>
 </section>
-<section id="file-handling" class="slide level2">
-<h2>File Handling:</h2>
-<p>Python provides various functions for reading from and writing to files. Understanding file handling operations is essential for working with external data. Object-Oriented Programming (OOP) (Optional for beginners but important for intermediate level):</p>
+<section id="error-handling-1" class="slide level2">
+<h2>Error Handling</h2>
+<ul>
+<li>If you know an error might happen at a set location, you can catch errors directly in your code:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb18" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="cf">try</span>:</span>
+<span id="cb18-2"><a></a>    variable <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="st">"a"</span></span>
+<span id="cb18-3"><a></a><span class="cf">except</span>:</span>
+<span id="cb18-4"><a></a>    <span class="bu">print</span>(<span class="st">"I knew that you could not add an integer and a string!"</span>)</span>
+<span id="cb18-5"><a></a><span class="cf">else</span>:</span>
+<span id="cb18-6"><a></a>    <span class="bu">print</span>(<span class="st">"Somehow I did not get an error!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    I knew that you could not add an integer and a string!</code></pre>
+</section>
+<section id="the-traceback" class="slide level2">
+<h2>The Traceback</h2>
+<ul>
+<li><p>At first, this looks like a very complicated output</p>
+<pre><code>  Traceback (most recent call last):
+      File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
+          print(fruit_prices.get_price("pear"))
+      File "/User/a_user/code/error_in_code.py", line 21, in get_price
+          return self._price(fruit)
+      File "/User/a_user/code/error_in_code.py", line 24, in _price
+          return self.prices[fruit]
+  KeyError: 'pear'</code></pre></li>
+</ul>
+</section>
+<section id="the-traceback-1" class="slide level2">
+<h2>The Traceback</h2>
+<ul>
+<li><p>When reading a Traceback, alwas read from the last line up.</p>
+<pre><code>  Traceback (most recent call last):
+      File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
+          print(fruit_prices.get_price("pear"))
+      File "/User/a_user/code/error_in_code.py", line 21, in get_price
+          return self._price(fruit)
+      File "/User/a_user/code/error_in_code.py", line 24, in _price
+          return self.prices[fruit]
+  ==&gt; KeyError: 'pear' &lt;==</code></pre></li>
+</ul>
+</section>
+<section id="compare-the-traceback-to-the-code" class="slide level2">
+<h2>Compare the Traceback to the code</h2>
+<ul>
+<li>Compare against the code</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb22" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a></a><span class="kw">class</span> FruitPrices:</span>
+<span id="cb22-2"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
+<span id="cb22-3"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
+<span id="cb22-4"><a></a></span>
+<span id="cb22-5"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
+<span id="cb22-6"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
+<span id="cb22-7"><a></a></span>
+<span id="cb22-8"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
+<span id="cb22-9"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
+<span id="cb22-10"><a></a></span>
+<span id="cb22-11"><a></a></span>
+<span id="cb22-12"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
+<span id="cb22-13"><a></a></span>
+<span id="cb22-14"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>)) <span class="co"># 'pear' key does not exist!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="you-got-all-that" class="slide level2" data-background-image="../../images/coding.jpg" data-background-opacity="0.3">
+<h2>You got all that?</h2>
+<ul>
+<li>Now it is your turn.</li>
+<li>Time for some hands on coding in <code>Lesson 2</code>.</li>
+</ul>
+</section>
+<section id="computers-are-pedantic" class="slide level2">
+<h2>Computers are pedantic!</h2>
+<ul>
+<li><strong>Remember</strong> that computers think in <code>True</code> and <code>False</code>, e.g.&nbsp;<code>1</code> and <code>0</code>s. They are literal thinkers.</li>
+<li>Even one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.</li>
+<li>Now go have some fun in your tutor groups with hands-on coding and debugging.</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../../images/cwc-logo.png" class="slide-logo"></p>

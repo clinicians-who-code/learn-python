@@ -14,368 +14,354 @@
     "text": "Modules\n\nModule 1"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#why-learn-to-code",
-    "href": "module-1/slides/1-introduction.html#why-learn-to-code",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "WHY LEARN TO CODE!",
-    "text": "WHY LEARN TO CODE!\nWHY LEARN TO CODE!"
+    "objectID": "module-1/slides/2-the-shell.html#todays-hands-on-sessions",
+    "href": "module-1/slides/2-the-shell.html#todays-hands-on-sessions",
+    "title": "Coding environment (and the shell)",
+    "section": "Today’s hands-on sessions",
+    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment should be synonymous with the teaching environment."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#introduction-15-minutes",
-    "href": "module-1/slides/1-introduction.html#introduction-15-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Introduction (15 minutes)",
-    "text": "Introduction (15 minutes)\n\nWelcome and course overview\nBrief introduction to programming"
+    "objectID": "module-1/slides/2-the-shell.html#codespace-light-theme",
+    "href": "module-1/slides/2-the-shell.html#codespace-light-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace light theme",
+    "text": "Codespace light theme"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#understanding-programming-basics-30-minutes",
-    "href": "module-1/slides/1-introduction.html#understanding-programming-basics-30-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Understanding Programming Basics (30 minutes)",
-    "text": "Understanding Programming Basics (30 minutes)\n\nWhat is a programming language?\nWhy Python?\nIntroduction to Python’s syntax\nBasic concepts: variables, data types, and operators"
+    "objectID": "module-1/slides/2-the-shell.html#codespace-dark-theme",
+    "href": "module-1/slides/2-the-shell.html#codespace-dark-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace dark theme",
+    "text": "Codespace dark theme"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#setting-up-your-environment-30-minutes",
-    "href": "module-1/slides/1-introduction.html#setting-up-your-environment-30-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Setting Up Your Environment (30 minutes)",
-    "text": "Setting Up Your Environment (30 minutes)\n\nIntroduction to Integrated Development Environments (IDEs)\nOverview of popular Python IDEs (e.g., PyCharm, VSCode, Jupyter Notebook)\nInstalling Python and an IDE\nWriting your first Python script"
+    "objectID": "module-1/slides/2-the-shell.html#codespace-layout",
+    "href": "module-1/slides/2-the-shell.html#codespace-layout",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace layout",
+    "text": "Codespace layout"
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#exploring-the-terminal-15-minutes",
-    "href": "module-1/slides/1-introduction.html#exploring-the-terminal-15-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Exploring the Terminal (15 minutes)",
-    "text": "Exploring the Terminal (15 minutes)\n\nWhat is the terminal (command line interface)?\nBasic terminal commands (e.g., cd, ls/dir, mkdir, rm)\nNavigating directories using the terminal"
+    "objectID": "module-1/slides/2-the-shell.html#commands",
+    "href": "module-1/slides/2-the-shell.html#commands",
+    "title": "Coding environment (and the shell)",
+    "section": "Commands",
+    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in to printing, changing settings, and updating the operating system."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#python-basics-45-minutes",
-    "href": "module-1/slides/1-introduction.html#python-basics-45-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Python Basics (45 minutes)",
-    "text": "Python Basics (45 minutes)\n\nIntroduction to Python data types (int, float, str, bool)\nVariables and variable assignment\nBasic arithmetic operations in Python\nUnderstanding strings and string manipulation\nBoolean values and logical operators"
+    "objectID": "module-1/slides/2-the-shell.html#using-the-terminal",
+    "href": "module-1/slides/2-the-shell.html#using-the-terminal",
+    "title": "Coding environment (and the shell)",
+    "section": "Using the terminal",
+    "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#break-15-minutes",
-    "href": "module-1/slides/1-introduction.html#break-15-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Break (15 minutes)",
-    "text": "Break (15 minutes)"
+    "objectID": "module-1/slides/2-the-shell.html#list-files-and-folders-command",
+    "href": "module-1/slides/2-the-shell.html#list-files-and-folders-command",
+    "title": "Coding environment (and the shell)",
+    "section": "List files and folders command",
+    "text": "List files and folders command\n\nThe ls command."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#control-flow-in-python-45-minutes",
-    "href": "module-1/slides/1-introduction.html#control-flow-in-python-45-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Control Flow in Python (45 minutes)",
-    "text": "Control Flow in Python (45 minutes)\n\nIntroduction to control structures (if statements, loops)\nConditional statements (if, elif, else)\nLooping structures (while loop, for loop)\nUsing indentation in Python (blocks of code)"
+    "objectID": "module-1/slides/2-the-shell.html#change-directory-command",
+    "href": "module-1/slides/2-the-shell.html#change-directory-command",
+    "title": "Coding environment (and the shell)",
+    "section": "Change directory command",
+    "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#hands-on-exercises-30-minutes",
-    "href": "module-1/slides/1-introduction.html#hands-on-exercises-30-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Hands-On Exercises (30 minutes)",
-    "text": "Hands-On Exercises (30 minutes)\n\nGuided exercises to reinforce concepts covered\nPractice writing simple programs\nInstructor-led walkthrough of solutions"
+    "objectID": "module-1/slides/2-the-shell.html#where-am-i",
+    "href": "module-1/slides/2-the-shell.html#where-am-i",
+    "title": "Coding environment (and the shell)",
+    "section": "Where am I?",
+    "text": "Where am I?\n\npwd is the print working directory command."
   },
   {
-    "objectID": "module-1/slides/1-introduction.html#qa-and-conclusion-15-minutes",
-    "href": "module-1/slides/1-introduction.html#qa-and-conclusion-15-minutes",
-    "title": "Introduction to module 1 - python and the shell",
-    "section": "Q&A and Conclusion (15 minutes)",
-    "text": "Q&A and Conclusion (15 minutes)\n\nAddressing any remaining questions from participants\nSummary of key concepts covered\nNext steps for further learning and practice"
+    "objectID": "module-1/slides/2-the-shell.html#liveshare",
+    "href": "module-1/slides/2-the-shell.html#liveshare",
+    "title": "Coding environment (and the shell)",
+    "section": "LiveShare",
+    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#getting-up",
-    "href": "module-1/slides/3-python-basics.html#getting-up",
+    "objectID": "module-1/slides/2-the-shell.html#codespace-view",
+    "href": "module-1/slides/2-the-shell.html#codespace-view",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace view",
+    "text": "Codespace view"
+  },
+  {
+    "objectID": "module-1/slides/2-the-shell.html#lession-1",
+    "href": "module-1/slides/2-the-shell.html#lession-1",
+    "title": "Coding environment (and the shell)",
+    "section": "Lession 1",
+    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd /workspaces/learn-python/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python3 lession_1.py\n\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#what-are-computers",
+    "href": "module-1/slides/3-python-basics.html#what-are-computers",
     "title": "Python basics",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+    "section": "What are computers?",
+    "text": "What are computers?\n\nAt its core, a computer is essentially a device that answers yes-no questions.\nIt answers these simple questions very very quickly.\nBy asking the computer millions of these yes-no questions, it can calculate answers to very complex questions."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#breakfast",
-    "href": "module-1/slides/3-python-basics.html#breakfast",
+    "objectID": "module-1/slides/3-python-basics.html#how-do-computers-think",
+    "href": "module-1/slides/3-python-basics.html#how-do-computers-think",
     "title": "Python basics",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+    "section": "How do computers think?",
+    "text": "How do computers think?\n\nConfused by the last statement? Let me expand…\nComputers have lots of components to enable them to work.\n\nScreen to show you its output.\nKeyboard and mouse to allow you to communicate with the computer.\nInside the computer’s chassis:\n\nHard drives\nMemory sticks\nFans\nPower supplies\nMotherboards\nProcessors\n\n\nThe processor of a computer is where all of the thinking takes place."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#dinner",
-    "href": "module-1/slides/3-python-basics.html#dinner",
+    "objectID": "module-1/slides/3-python-basics.html#how-do-computers-think-1",
+    "href": "module-1/slides/3-python-basics.html#how-do-computers-think-1",
     "title": "Python basics",
-    "section": "Dinner",
-    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+    "section": "How do computers think?",
+    "text": "How do computers think?\n\nThe processor is where these yes-no questions are undertaken.\nThe processor receives instructions in binary form.\nBinary is basically a string of 1s and 0s (eg 01001011).\nAs modern computers communicate in binary (yes-no) form, they are said to be digital.\nThe processor reads these binary instructions.\nEach instruction results in either a True or False answer (aka yes-no answer). The output (aka answer) is also in binary."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#going-to-sleep",
-    "href": "module-1/slides/3-python-basics.html#going-to-sleep",
+    "objectID": "module-1/slides/3-python-basics.html#so-how-do-we-communicate-with-computers",
+    "href": "module-1/slides/3-python-basics.html#so-how-do-we-communicate-with-computers",
     "title": "Python basics",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep\n\nVariables and Data Types:\nVariables are used to store data in a program. Understanding data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and sets is crucial. Variables allow you to manipulate and operate on data within your program.\nNO SPACES"
+    "section": "So how do we communicate with computers?",
+    "text": "So how do we communicate with computers?\n\nSo computers listen, think and talk in binary.\nWe need a method to communicate with them, to get them to do what we want them to do.\nThis is where programming languages come into play."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#basic-operations-and-expressions",
-    "href": "module-1/slides/3-python-basics.html#basic-operations-and-expressions",
+    "objectID": "module-1/slides/3-python-basics.html#programming-languages",
+    "href": "module-1/slides/3-python-basics.html#programming-languages",
     "title": "Python basics",
-    "section": "Basic Operations and Expressions:",
-    "text": "Basic Operations and Expressions:\nPython supports various operations like arithmetic operators (+, -, *, /), comparison operators (==, !=, &lt;, &gt;), logical operators (and, or, not), etc. Expressions combine variables, values, and operators to perform a specific computation."
+    "section": "Programming languages",
+    "text": "Programming languages\n\nThere are over 9000 programming languages, but much less than this in routine use.\nA programming language is written in somewhat of a human readable form (depends on the langauge).\nPopular langauges include:\n\nJavascript / typescript\nC++\nGo\nJava\nSwift\nR\nPython"
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#control-flow",
-    "href": "module-1/slides/3-python-basics.html#control-flow",
+    "objectID": "module-1/slides/3-python-basics.html#translation",
+    "href": "module-1/slides/3-python-basics.html#translation",
     "title": "Python basics",
-    "section": "Control Flow:",
-    "text": "Control Flow:\nControl flow structures such as if statements, for loops, and while loops allow you to control the execution of your code based on certain conditions. Understanding how to use these structures enables you to write code that performs different actions under different circumstances."
+    "section": "Translation",
+    "text": "Translation\n\nWhen you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into 1s and 0s which the computer can then read and act upon."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#functions",
-    "href": "module-1/slides/3-python-basics.html#functions",
+    "objectID": "module-1/slides/3-python-basics.html#what-is-in-a-code",
+    "href": "module-1/slides/3-python-basics.html#what-is-in-a-code",
     "title": "Python basics",
-    "section": "Functions:",
-    "text": "Functions:\nFunctions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular. Understanding how to define, call, and pass arguments to functions is essential."
+    "section": "What is in a code?",
+    "text": "What is in a code?\n\nYou need different elements in your code to be able to tell the computer what to do. These include:\n\nVariables\nOperators\nExpressions\nFlow control\nFunctions\nError handling\nMore advanced functionalities"
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#data-structures",
-    "href": "module-1/slides/3-python-basics.html#data-structures",
+    "objectID": "module-1/slides/3-python-basics.html#variables",
+    "href": "module-1/slides/3-python-basics.html#variables",
     "title": "Python basics",
-    "section": "Data Structures:",
-    "text": "Data Structures:\nPython provides built-in data structures like lists, tuples, dictionaries, and sets. Understanding these data structures and their properties is crucial for efficient data manipulation. Knowledge of when and how to use each data structure based on the requirements of your program is important."
+    "section": "Variables",
+    "text": "Variables\n\nA single variable is a set space in the computer’s memory.\nSimple in-built variables include:\n\n\n\nvariables_simple.py\n\na_string = \"I am a string\"\nan_integer = 11\na_float = 8.04\na_boolean = True"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#variables-1",
+    "href": "module-1/slides/3-python-basics.html#variables-1",
+    "title": "Python basics",
+    "section": "Variables",
+    "text": "Variables\n\nMore complex variables include:\n\n\n\nvariables_more_complex.py\n\na_list = [\"first element of list\", \"second element of list\"]\nanother_list = [1, 5, 3, 6]\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}\na_tuple = (1, 2, 3, 4, 6, 7)\na_set = {4, 2, 5, 3}"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#spaces",
+    "href": "module-1/slides/3-python-basics.html#spaces",
+    "title": "Python basics",
+    "section": "Spaces",
+    "text": "Spaces\n\nVariables names cannot have spaces, if you add a space, the computer will read this as two separate variables:\n\n\n\nspaces.py\n\nvariable_a = \"I am a variable\"\nvariable b = \"The added space will cause an error\"\n\nSyntax error:\n    Cell In[1], line 2\n        variable b = \"The added space will cause an error\"\n                 ^\n    SyntaxError: invalid syntax"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#double-or-single-quotation-marks",
+    "href": "module-1/slides/3-python-basics.html#double-or-single-quotation-marks",
+    "title": "Python basics",
+    "section": "Double or single quotation marks?",
+    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two single qoutation marks\"\nvariable_b = \"I have the wrong matching qoutation marks'\nvariable_c = 'Single qoutation marks'\n\n\nSuddenly variable_c is part of the string for variable_b"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#using-both-types-of-quotation-marks",
+    "href": "module-1/slides/3-python-basics.html#using-both-types-of-quotation-marks",
+    "title": "Python basics",
+    "section": "Using both types of Quotation marks",
+    "text": "Using both types of Quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#indentation",
+    "href": "module-1/slides/3-python-basics.html#indentation",
+    "title": "Python basics",
+    "section": "Indentation",
+    "text": "Indentation\n\nPython is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of tabs) of expressions shows the computer which previous expression it relates to."
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#indentation-1",
+    "href": "module-1/slides/3-python-basics.html#indentation-1",
+    "title": "Python basics",
+    "section": "Indentation",
+    "text": "Indentation\n\n\nindentation.py\n\nif drug_prescribed == True:\n    if drug_given == True:\n        record_drug_given = True\n        print(\"Drug has been prescribed and given to the patient\")\n    else:\n        print(\"Drug has been prescribed but not given\")\nelse:\n    print(\"Drug has not been prescribed\")\n\nprint(\"Drug round complete!\")\n\nOutput (if drug has been prescribed and given)\n    Drug has been prescribed and given to the patient\n    Drug round complete!"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#indentation-2",
+    "href": "module-1/slides/3-python-basics.html#indentation-2",
+    "title": "Python basics",
+    "section": "Indentation",
+    "text": "Indentation\n\n\nindentation.py\n\nif drug_prescribed == True:\n    if drug_given == True:\n        record_drug_given = True\n        print(\"Drug has been prescribed and given to the patient\")\n    else:\n        print(\"Drug has been prescribed but not given\")\nelse:\n    print(\"Drug has not been prescribed\")\n\n    print(\"Drug round complete!\")\n\nOutput (if drug has been prescribed and given)\n    Drug has been prescribed and given to the patient"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#naming-conventions",
+    "href": "module-1/slides/3-python-basics.html#naming-conventions",
+    "title": "Python basics",
+    "section": "Naming conventions",
+    "text": "Naming conventions\n\nThere are several naming conventions for programming languages. In python, conventions are:\n\nVariables, functions and methods\n\nsnake_case\n\nContants\n\nCONSTANT_CASE\n\nClasses (a higher organisation method in python)\n\nCamelCase\n\nModules (a file with python code inside)\n\nsnake_case\n\nPackages (a collection of modules)\n\nlowercasepackagenames"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#basic-operators",
+    "href": "module-1/slides/3-python-basics.html#basic-operators",
+    "title": "Python basics",
+    "section": "Basic Operators",
+    "text": "Basic Operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\n\nArithmetic: + - * /\nComparison: == &gt; &lt;\nLogical: and or not\nAssignment: = += -= *="
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#more-advanced-operators",
+    "href": "module-1/slides/3-python-basics.html#more-advanced-operators",
+    "title": "Python basics",
+    "section": "More Advanced Operators",
+    "text": "More Advanced Operators\n\nThese include:\n\nBitwise: & | ^ &lt;&lt; &gt;&gt;\nMembership: in   not in\nIdentity: is   is not"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#control-flow---if-statements",
+    "href": "module-1/slides/3-python-basics.html#control-flow---if-statements",
+    "title": "Python basics",
+    "section": "Control flow - if statements",
+    "text": "Control flow - if statements\n\n\nif_statement.py\n\nsky = \"dark\"\n\nif sky == \"blue\":\n    time_of_day = \"day time\"\nelif sky == \"grey\"\n    time_of_day = \"dusk or dawn\"\nelse:\n    time_of_day = \"night time\"\n\nprint(\"Time of day is: \", time_of_day)\n\nOutput\n    Time of day is: night time"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#control-flow---for-loops",
+    "href": "module-1/slides/3-python-basics.html#control-flow---for-loops",
+    "title": "Python basics",
+    "section": "Control flow - for loops",
+    "text": "Control flow - for loops\n\n\nfor_loop.py\n\nlist_of_numbers = [1, 2, 3, 4, 5]\n\nfor number in list_of_numbers:\n    print(number)\n\nOutput\n    1\n    2\n    3\n    4\n    5"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#control-flow---while-loops",
+    "href": "module-1/slides/3-python-basics.html#control-flow---while-loops",
+    "title": "Python basics",
+    "section": "Control flow - while loops",
+    "text": "Control flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#functions-methods",
+    "href": "module-1/slides/3-python-basics.html#functions-methods",
+    "title": "Python basics",
+    "section": "Functions (methods)",
+    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organizing code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisation method in python)."
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#functions-methods-1",
+    "href": "module-1/slides/3-python-basics.html#functions-methods-1",
+    "title": "Python basics",
+    "section": "Functions (methods)",
+    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    another_variable = \"a return value\"\n\n    print (a_variable)\n\n    return another_variable"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#other-things-to-be-aware-of",
+    "href": "module-1/slides/3-python-basics.html#other-things-to-be-aware-of",
+    "title": "Python basics",
+    "section": "Other things to be aware of",
+    "text": "Other things to be aware of\n\nThere are several other organisational practices in python, but we will leave these for another day.\nJust so you are aware, these are:\n\nclasses\nmodules\npackages\n\nThere are also some fancy syntax practices,\nReading inputs from the terminal,\nFile handling, and\nObject oriented programming."
   },
   {
     "objectID": "module-1/slides/3-python-basics.html#error-handling",
     "href": "module-1/slides/3-python-basics.html#error-handling",
     "title": "Python basics",
-    "section": "Error Handling:",
-    "text": "Error Handling:\nLearning about exception handling in Python helps you deal with errors that may occur during program execution. This includes using try-except blocks to handle exceptions gracefully. Input and Output:\nKnowing how to read input from users (using input()) and display output (using print()) is fundamental for building interactive programs. Modules and Packages:\nPython’s modular design allows you to organize code into modules and packages. Understanding how to import modules and use functions from external libraries expands the capabilities of your programs."
+    "section": "Error Handling",
+    "text": "Error Handling\n\nError handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of your time debugging.\nDebugging is the practice of looking for bugs (errors in the code) and trying to fix them.\nWhen an error happens in python, an exception is raised. You then use the traceback to try and find the cause of the error."
   },
   {
-    "objectID": "module-1/slides/3-python-basics.html#file-handling",
-    "href": "module-1/slides/3-python-basics.html#file-handling",
+    "objectID": "module-1/slides/3-python-basics.html#error-handling-1",
+    "href": "module-1/slides/3-python-basics.html#error-handling-1",
     "title": "Python basics",
-    "section": "File Handling:",
-    "text": "File Handling:\nPython provides various functions for reading from and writing to files. Understanding file handling operations is essential for working with external data. Object-Oriented Programming (OOP) (Optional for beginners but important for intermediate level):"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#what-are-computers",
-    "href": "module-1/slides/2-coding-environment.html#what-are-computers",
-    "title": "Coding environment",
-    "section": "What are computers?",
-    "text": "What are computers?\n\nAt its core, a computer is essentially a device that answers yes-no questions.\nIt answers these simple questions very very quickly.\nBy asking the computer millions of these yes-no questions, it can calculate answers to very complex questions."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#how-do-computers-think",
-    "href": "module-1/slides/2-coding-environment.html#how-do-computers-think",
-    "title": "Coding environment",
-    "section": "How do computers think?",
-    "text": "How do computers think?\n\nConfused by the last statement? Let me expand…\nComputers have lots of components to enable them to work.\n\nScreen to show you its output.\nKeyboard and mouse to allow you to communicate with the computer.\nInside the computer’s chassis:\n\nHard drives\nMemory sticks\nFans\nPower supplies\nMotherboards\nProcessors\n\n\nThe processor of a computer is where all of the thinking takes place."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#how-do-computers-think-1",
-    "href": "module-1/slides/2-coding-environment.html#how-do-computers-think-1",
-    "title": "Coding environment",
-    "section": "How do computers think?",
-    "text": "How do computers think?\n\nThe processor is where these yes-no questions are undertaken.\nThe processor receives instructions in binary form.\nBinary is basically a string of 1s and 0s (eg 01001011).\nAs modern computers communicate in binary (yes-no) form, they are said to be digital.\nThe processor reads these binary instructions.\nEach instruction results in either a True or False answer (aka yes-no answer). The output (aka answer) is also in binary."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#so-how-do-we-communicate-with-computers",
-    "href": "module-1/slides/2-coding-environment.html#so-how-do-we-communicate-with-computers",
-    "title": "Coding environment",
-    "section": "So how do we communicate with computers?",
-    "text": "So how do we communicate with computers?\n\nSo computers listen, think and talk in binary.\nWe need a method to communicate with them, to get them to do what we want them to do.\nThis is where programming languages come into play."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#programming-languages",
-    "href": "module-1/slides/2-coding-environment.html#programming-languages",
-    "title": "Coding environment",
-    "section": "Programming languages",
-    "text": "Programming languages\n\nThere are over 9000 programming languages, but much less than this in routine use.\nA programming language is written in somewhat of a human readable form (depends on the langauge).\nPopular langauges include:\n\nJavascript / typescript\nC++\nGo\nJava\nSwift\nR\nPython"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#translation",
-    "href": "module-1/slides/2-coding-environment.html#translation",
-    "title": "Coding environment",
-    "section": "Translation",
-    "text": "Translation\n\nWhen you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into 1s and 0s which the computer can then read and act upon."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#what-is-in-a-code",
-    "href": "module-1/slides/2-coding-environment.html#what-is-in-a-code",
-    "title": "Coding environment",
-    "section": "What is in a code?",
-    "text": "What is in a code?\n\nYou need different elements in your code to be able to tell the computer what to do. These include:\n\nVariables\nOperators\nExpressions\nFlow control\nFunctions\nError handling\nMore advanced functionalities"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#ok-why-learn-to-code",
-    "href": "module-1/slides/2-coding-environment.html#ok-why-learn-to-code",
-    "title": "Coding environment",
-    "section": "OK, why learn to code?",
-    "text": "OK, why learn to code?\n\nTBC"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#variables",
-    "href": "module-1/slides/2-coding-environment.html#variables",
-    "title": "Coding environment",
-    "section": "Variables",
-    "text": "Variables\n\nA single variable is a space in the computer’s memory.\nSimple inbuilt variables include:\n\n\n\nvariables_simple.py\n\na_string = \"I am a string\"\nan_integer = 11\na_float = 8.04\na_boolean = True"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#variables-1",
-    "href": "module-1/slides/2-coding-environment.html#variables-1",
-    "title": "Coding environment",
-    "section": "Variables",
-    "text": "Variables\n\nMore complex variables include:\n\n\n\nvariables_more_complex.py\n\na_list = [\"first element of list\", \"second element of list\"]\nanother_list = [1,5,3,6]\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}\na_tuple = (1,2,3,4,6,7)\na_set = {4,2,5,3}"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#spaces",
-    "href": "module-1/slides/2-coding-environment.html#spaces",
-    "title": "Coding environment",
-    "section": "Spaces",
-    "text": "Spaces\n\nVariables names cannot have spaces, if you add a space, the computer will read this as two separate variables:\n\n\n\nspaces.py\n\nvariable_a = \"I am a variable\"\nvariable b = \"The added space will cause an error\"\n\nSyntax error:\n    Cell In[1], line 2\n        variable b = \"The added space will cause an error\"\n                 ^\n    SyntaxError: invalid syntax"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#double-or-single-quotation-marks",
-    "href": "module-1/slides/2-coding-environment.html#double-or-single-quotation-marks",
-    "title": "Coding environment",
-    "section": "Double or single quotation marks?",
-    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two single qoutation marks\"\nvariable_b = \"I have the wrong matching qoutation marks'\nvariable_c = 'Single qoutation marks'\n\n\nSuddenly variable_c is part of the string for variable_b"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#using-both-types-of-quotation-marks",
-    "href": "module-1/slides/2-coding-environment.html#using-both-types-of-quotation-marks",
-    "title": "Coding environment",
-    "section": "Using both types of Quotation marks",
-    "text": "Using both types of Quotation marks\n\nYou can embed qoutation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#indentation",
-    "href": "module-1/slides/2-coding-environment.html#indentation",
-    "title": "Coding environment",
-    "section": "Indentation",
-    "text": "Indentation\n\nPython is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. You use a tab for a line of code to show the computer which previous statement it relates to."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#indentation-1",
-    "href": "module-1/slides/2-coding-environment.html#indentation-1",
-    "title": "Coding environment",
-    "section": "Indentation",
-    "text": "Indentation\n\n\nindentation.py\n\nif door_locked == True:\n    if key_in_door == True:\n        turn_key()\n        door_locker = False\n        print(\"Door has been unlocked\")\n    else:\n        print(\"Door locked and cannot be opened\")\nelse:\n    print(\"Door already unlocked\")\n\nprint(\"Done\")\n\nOutput (if door locked and key in door)\n    \"Door has been unlocked\"\n    \"done\""
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#indentation-2",
-    "href": "module-1/slides/2-coding-environment.html#indentation-2",
-    "title": "Coding environment",
-    "section": "Indentation",
-    "text": "Indentation\n\n\nindentation.py\n\nif door_locked == True:\n    if key_in_door == True:\n        turn_key()\n        door_locker = False\n        print(\"Door has been unlocked\")\n    else:\n        print(\"Door locked and cannot be opened\")\nelse:\n    print(\"Door already unlocked\")\n\n    print(\"Done\")\n\nOutput (if door locked and key in door)\n    \"Door has been unlocked\""
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#naming-conventions",
-    "href": "module-1/slides/2-coding-environment.html#naming-conventions",
-    "title": "Coding environment",
-    "section": "Naming conventions",
-    "text": "Naming conventions\n\nThere are several naming conventions for programming languages. In python, conventions are:\n\nVariables, functions and methods\n\nsnake_case\n\nContants\n\nCONSTANT_CASE\n\nClasses (a higher organisation method in python)\n\nCamelCase\n\nModules (a file with python code inside)\n\nsnake_case\n\nPackages (a collection of modules)\n\nlowercasepackagenames"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#basic-operators",
-    "href": "module-1/slides/2-coding-environment.html#basic-operators",
-    "title": "Coding environment",
-    "section": "Basic Operators",
-    "text": "Basic Operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\n\nArithmetic: + - * /\nComparison: == &gt; &lt;\nLogical: and or not\nAssignment: = += -= *="
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#more-advanced-operators",
-    "href": "module-1/slides/2-coding-environment.html#more-advanced-operators",
-    "title": "Coding environment",
-    "section": "More Advanced Operators",
-    "text": "More Advanced Operators\n\nThese include:\n\nBitwise: & | ^ &lt;&lt; &gt;&gt;\nMembership: in   not in\nIdentity: is   is not"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#control-flow---if-statements",
-    "href": "module-1/slides/2-coding-environment.html#control-flow---if-statements",
-    "title": "Coding environment",
-    "section": "Control Flow - if statements",
-    "text": "Control Flow - if statements\n\n\nif_statement.py\n\nsky = \"dark\"\n\nif sky == \"blue\":\n    time_of_day = \"day time\"\nelif sky == \"grey\"\n    time_of_day = \"dusk or dawn\"\nelse:\n    time_of_day = \"night time\"\n\nprint(\"Time of day is: \", time_of_day)\n\nOutput\n    Time of day is: night time"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#control-flow---for-loops",
-    "href": "module-1/slides/2-coding-environment.html#control-flow---for-loops",
-    "title": "Coding environment",
-    "section": "Control Flow - for loops",
-    "text": "Control Flow - for loops\n\n\nfor_loop.py\n\nlist_of_numbers = [1, 2, 3, 4, 5]\n\nfor number in list_of_numbers:\n    print(number)\n\nOutput\n    1\n    2\n    3\n    4\n    5"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#control-flow---while-loops",
-    "href": "module-1/slides/2-coding-environment.html#control-flow---while-loops",
-    "title": "Coding environment",
-    "section": "Control Flow - while loops",
-    "text": "Control Flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#functions-methods",
-    "href": "module-1/slides/2-coding-environment.html#functions-methods",
-    "title": "Coding environment",
-    "section": "Functions (methods)",
-    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organizing code and making it more modular.\nPart of the DRY (do not repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisation method in python)"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#functions-methods-1",
-    "href": "module-1/slides/2-coding-environment.html#functions-methods-1",
-    "title": "Coding environment",
-    "section": "Functions (methods)",
-    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    another_variable = \"a return value\"\n\n    print (a_variable)\n\n    return another_variable"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#other-things-to-be-aware-of",
-    "href": "module-1/slides/2-coding-environment.html#other-things-to-be-aware-of",
-    "title": "Coding environment",
-    "section": "Other things to be aware of",
-    "text": "Other things to be aware of\n\nThere are several other organisational practices in python, but we will leave these for another day.\nJust so you are aware, these are:\n\nclasses\nmodules\npackages\n\nThere are also some fancy syntax practices,\nReading inputs from the terminal,\nFile handling,\nObject oriented programming."
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#error-handling",
-    "href": "module-1/slides/2-coding-environment.html#error-handling",
-    "title": "Coding environment",
     "section": "Error Handling",
-    "text": "Error Handling\n\nError handling is one of the most important concepts to understand and problem solve. You will be spending 25-50% of your time debugging.\nDebugging is the practice of looking for bugs (errors in the code) and trying to fix them.\nWhen an error happens in python, an exception is raised. You then use the traceback to try and find the cause of the error."
+    "text": "Error Handling\n\nIf you know an error might happen at a set location, you can catch errors directly in your code:\n\n\n\nfunctions.py\n\ntry:\n    variable = 1 + \"a\"\nexcept:\n    print(\"I knew that you could not add an integer and a string!\")\nelse:\n    print(\"Somehow I did not get an error!\")\n\nOutput\n    I knew that you could not add an integer and a string!"
   },
   {
-    "objectID": "module-1/slides/2-coding-environment.html#error-handling-1",
-    "href": "module-1/slides/2-coding-environment.html#error-handling-1",
-    "title": "Coding environment",
-    "section": "Error Handling",
-    "text": "Error Handling\n\nYou can catch errors directly in your code, if you know an error might happen at a set location\n\n\n\nfunctions.py\n\ntry:\n    variable = 1 + \"a\"\nexcept:\n    print(\"I knew that you could not add an integer and a string!\")\nelse:\n    print(\"Somehow I did not get an error!\")\n\nOutput\n    I knew that you could not add an integer and a string!"
-  },
-  {
-    "objectID": "module-1/slides/2-coding-environment.html#the-traceback",
-    "href": "module-1/slides/2-coding-environment.html#the-traceback",
-    "title": "Coding environment",
+    "objectID": "module-1/slides/3-python-basics.html#the-traceback",
+    "href": "module-1/slides/3-python-basics.html#the-traceback",
+    "title": "Python basics",
     "section": "The Traceback",
     "text": "The Traceback\n\nAt first, this looks like a very complicated output\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n          print(fruit_prices.get_price(\"pear\"))\n      File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n          return self._price(fruit)\n      File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n          return self.prices[fruit]\n  KeyError: 'pear'"
   },
   {
-    "objectID": "module-1/slides/2-coding-environment.html#the-traceback-1",
-    "href": "module-1/slides/2-coding-environment.html#the-traceback-1",
-    "title": "Coding environment",
+    "objectID": "module-1/slides/3-python-basics.html#the-traceback-1",
+    "href": "module-1/slides/3-python-basics.html#the-traceback-1",
+    "title": "Python basics",
     "section": "The Traceback",
     "text": "The Traceback\n\nWhen reading a Traceback, alwas read from the last line up.\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n          print(fruit_prices.get_price(\"pear\"))\n      File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n          return self._price(fruit)\n      File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n          return self.prices[fruit]\n  ==&gt; KeyError: 'pear' &lt;=="
   },
   {
-    "objectID": "module-1/slides/2-coding-environment.html#compare-the-traceback-to-the-code",
-    "href": "module-1/slides/2-coding-environment.html#compare-the-traceback-to-the-code",
-    "title": "Coding environment",
+    "objectID": "module-1/slides/3-python-basics.html#compare-the-traceback-to-the-code",
+    "href": "module-1/slides/3-python-basics.html#compare-the-traceback-to-the-code",
+    "title": "Python basics",
     "section": "Compare the Traceback to the code",
     "text": "Compare the Traceback to the code\n\nCompare against the code\n\n\n\nfunctions.py\n\nclass FruitPrices:\n    def __init__(self):\n        self.prices = {\"apple\": 1.55, \"banana\": 2.44}\n\n    def get_price(self, fruit):\n        return self._price(fruit)\n\n    def _price(self, fruit):\n        return self.prices[fruit]\n\n\nfruit_prices = FruitPrices()\n\nprint(fruit_prices.get_price(\"pear\")) # 'pear' key does not exist!"
   },
   {
-    "objectID": "module-1/slides/2-coding-environment.html#you-got-all-that",
-    "href": "module-1/slides/2-coding-environment.html#you-got-all-that",
-    "title": "Coding environment",
+    "objectID": "module-1/slides/3-python-basics.html#you-got-all-that",
+    "href": "module-1/slides/3-python-basics.html#you-got-all-that",
+    "title": "Python basics",
     "section": "You got all that?",
-    "text": "You got all that?\n\nNow it is your turn\nTime for some hands on coding lessions"
+    "text": "You got all that?\n\nNow it is your turn.\nTime for some hands on coding in Lesson 2."
   },
   {
-    "objectID": "module-1/slides/2-coding-environment.html#computers-are-pedantic",
-    "href": "module-1/slides/2-coding-environment.html#computers-are-pedantic",
-    "title": "Coding environment",
+    "objectID": "module-1/slides/3-python-basics.html#computers-are-pedantic",
+    "href": "module-1/slides/3-python-basics.html#computers-are-pedantic",
+    "title": "Python basics",
     "section": "Computers are pedantic!",
-    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, 1 and 0s. They are literal thinkers. Even one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, make sure you match your indentiations to your if statements.\nNow go have some fun in your groups with hands-on coding and debugging."
+    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#introduction",
+    "href": "module-1/slides/1-introduction.html#introduction",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#the-coding-environment",
+    "href": "module-1/slides/1-introduction.html#the-coding-environment",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "The coding environment",
+    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#python-basics",
+    "href": "module-1/slides/1-introduction.html#python-basics",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Python Basics",
+    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#why-learn-to-code",
+    "href": "module-1/slides/1-introduction.html#why-learn-to-code",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Why learn to code?",
+    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to understand and practice clinical medicine, why not the base subject to understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "href": "module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "How can you use your coding skills in health care?",
+    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nData transfer\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed anything digital"
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#tutor-groups",
+    "href": "module-1/slides/1-introduction.html#tutor-groups",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
+  },
+  {
+    "objectID": "module-1/slides/1-introduction.html#off-we-go-to-the-shell",
+    "href": "module-1/slides/1-introduction.html#off-we-go-to-the-shell",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Off we go to the shell",
+    "text": "Off we go to the shell"
   },
   {
     "objectID": "module-1/index.html",
