@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.551">
+  <meta name="generator" content="quarto-1.4.552">
 
   <meta name="author" content="Clinicians who code">
   <title>CWC - Python basics</title>
@@ -654,6 +654,35 @@ Clinicians who code
 </ul></li>
 </ul>
 </section>
+<section id="comments" class="slide level2 smaller">
+<h2>Comments</h2>
+<ul>
+<li>Comments are useful in explaining what code is supposed to do.</li>
+<li>They are essential for when you, and others, need to read your code later to problem solve or add to your code.</li>
+<li>Use them sparingly, as they can clutter code.</li>
+<li>Try and make variable and function names self explanatory.</li>
+<li>You can comment with the hastag or encapsulate with triple quotation marks:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>comments.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb11" data-filename="comments.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a><span class="co"># This is a single line comment</span></span>
+<span id="cb11-2"><a></a>a_string <span class="op">=</span> <span class="st">"a string"</span></span>
+<span id="cb11-3"><a></a></span>
+<span id="cb11-4"><a></a><span class="co">""" Double quotation mark multiline comment</span></span>
+<span id="cb11-5"><a></a><span class="co">    Here is some more of the comment</span></span>
+<span id="cb11-6"><a></a><span class="co">"""</span></span>
+<span id="cb11-7"><a></a><span class="kw">def</span> i_am_a_function():</span>
+<span id="cb11-8"><a></a>    <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb11-9"><a></a></span>
+<span id="cb11-10"><a></a><span class="co">''' Single quotation mark multiline comment</span></span>
+<span id="cb11-11"><a></a><span class="co">    Here is some more of the comment</span></span>
+<span id="cb11-12"><a></a><span class="co">'''</span></span>
+<span id="cb11-13"><a></a><span class="kw">def</span> i_am_another_function():</span>
+<span id="cb11-14"><a></a>    <span class="cf">return</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 <section id="basic-operators" class="slide level2">
 <h2>Basic Operators</h2>
 <ul>
@@ -688,19 +717,19 @@ Clinicians who code
 <div class="code-with-filename-file">
 <pre><strong>if_statement.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb11" data-filename="if_statement.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>sky <span class="op">=</span> <span class="st">"dark"</span></span>
-<span id="cb11-2"><a></a></span>
-<span id="cb11-3"><a></a><span class="cf">if</span> sky <span class="op">==</span> <span class="st">"blue"</span>:</span>
-<span id="cb11-4"><a></a>    time_of_day <span class="op">=</span> <span class="st">"day time"</span></span>
-<span id="cb11-5"><a></a><span class="cf">elif</span> sky <span class="op">==</span> <span class="st">"grey"</span></span>
-<span id="cb11-6"><a></a>    time_of_day <span class="op">=</span> <span class="st">"dusk or dawn"</span></span>
-<span id="cb11-7"><a></a><span class="cf">else</span>:</span>
-<span id="cb11-8"><a></a>    time_of_day <span class="op">=</span> <span class="st">"night time"</span></span>
-<span id="cb11-9"><a></a></span>
-<span id="cb11-10"><a></a><span class="bu">print</span>(<span class="st">"Time of day is: "</span>, time_of_day)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12" data-filename="if_statement.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>patient_allergy <span class="op">=</span> <span class="st">"amoxicillin"</span></span>
+<span id="cb12-2"><a></a></span>
+<span id="cb12-3"><a></a><span class="cf">if</span> patient_allergy <span class="op">==</span> <span class="st">"amoxicillin"</span>:</span>
+<span id="cb12-4"><a></a>    allergy_group <span class="op">=</span> <span class="st">"penicillins"</span></span>
+<span id="cb12-5"><a></a><span class="cf">elif</span> patient_allergy <span class="op">==</span> <span class="st">"tazocin"</span>:</span>
+<span id="cb12-6"><a></a>    allergy_group <span class="op">=</span> <span class="st">"penicillins"</span></span>
+<span id="cb12-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb12-8"><a></a>    allergy_group <span class="op">=</span> <span class="st">"others"</span></span>
+<span id="cb12-9"><a></a></span>
+<span id="cb12-10"><a></a><span class="bu">print</span>(<span class="st">"Patient is allergic to"</span>, allergy_group)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
-<pre><code>    Time of day is: night time</code></pre>
+<pre><code>    Patient is allergic to penicillins</code></pre>
 </section>
 <section id="control-flow---for-loops" class="slide level2">
 <h2>Control flow - for loops</h2>
@@ -708,10 +737,10 @@ Clinicians who code
 <div class="code-with-filename-file">
 <pre><strong>for_loop.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb13" data-filename="for_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>list_of_numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
-<span id="cb13-2"><a></a></span>
-<span id="cb13-3"><a></a><span class="cf">for</span> number <span class="kw">in</span> list_of_numbers:</span>
-<span id="cb13-4"><a></a>    <span class="bu">print</span>(number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14" data-filename="for_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a>list_of_numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb14-2"><a></a></span>
+<span id="cb14-3"><a></a><span class="cf">for</span> number <span class="kw">in</span> list_of_numbers:</span>
+<span id="cb14-4"><a></a>    <span class="bu">print</span>(number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    1
@@ -726,11 +755,11 @@ Clinicians who code
 <div class="code-with-filename-file">
 <pre><strong>while_loop.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb15" data-filename="while_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb15-2"><a></a></span>
-<span id="cb15-3"><a></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
-<span id="cb15-4"><a></a>    <span class="bu">print</span>(count)</span>
-<span id="cb15-5"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb16" data-filename="while_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb16-2"><a></a></span>
+<span id="cb16-3"><a></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
+<span id="cb16-4"><a></a>    <span class="bu">print</span>(count)</span>
+<span id="cb16-5"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    1
@@ -754,13 +783,13 @@ Clinicians who code
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb17" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
-<span id="cb17-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
-<span id="cb17-3"><a></a>    another_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
-<span id="cb17-4"><a></a></span>
-<span id="cb17-5"><a></a>    <span class="bu">print</span> (a_variable)</span>
-<span id="cb17-6"><a></a></span>
-<span id="cb17-7"><a></a>    <span class="cf">return</span> another_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb18" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb18-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
+<span id="cb18-3"><a></a>    another_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
+<span id="cb18-4"><a></a></span>
+<span id="cb18-5"><a></a>    <span class="bu">print</span> (a_variable)</span>
+<span id="cb18-6"><a></a></span>
+<span id="cb18-7"><a></a>    <span class="cf">return</span> another_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="other-things-to-be-aware-of" class="slide level2 smaller">
@@ -796,12 +825,12 @@ Clinicians who code
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb18" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="cf">try</span>:</span>
-<span id="cb18-2"><a></a>    variable <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="st">"a"</span></span>
-<span id="cb18-3"><a></a><span class="cf">except</span>:</span>
-<span id="cb18-4"><a></a>    <span class="bu">print</span>(<span class="st">"I knew that you could not add an integer and a string!"</span>)</span>
-<span id="cb18-5"><a></a><span class="cf">else</span>:</span>
-<span id="cb18-6"><a></a>    <span class="bu">print</span>(<span class="st">"Somehow I did not get an error!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb19" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a><span class="cf">try</span>:</span>
+<span id="cb19-2"><a></a>    variable <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="st">"a"</span></span>
+<span id="cb19-3"><a></a><span class="cf">except</span>:</span>
+<span id="cb19-4"><a></a>    <span class="bu">print</span>(<span class="st">"I knew that you could not add an integer and a string!"</span>)</span>
+<span id="cb19-5"><a></a><span class="cf">else</span>:</span>
+<span id="cb19-6"><a></a>    <span class="bu">print</span>(<span class="st">"Somehow I did not get an error!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    I knew that you could not add an integer and a string!</code></pre>
@@ -843,20 +872,20 @@ Clinicians who code
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb22" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a></a><span class="kw">class</span> FruitPrices:</span>
-<span id="cb22-2"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
-<span id="cb22-3"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
-<span id="cb22-4"><a></a></span>
-<span id="cb22-5"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
-<span id="cb22-6"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
-<span id="cb22-7"><a></a></span>
-<span id="cb22-8"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
-<span id="cb22-9"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
-<span id="cb22-10"><a></a></span>
-<span id="cb22-11"><a></a></span>
-<span id="cb22-12"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
-<span id="cb22-13"><a></a></span>
-<span id="cb22-14"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>)) <span class="co"># 'pear' key does not exist!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb23" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a></a><span class="kw">class</span> FruitPrices:</span>
+<span id="cb23-2"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
+<span id="cb23-3"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
+<span id="cb23-4"><a></a></span>
+<span id="cb23-5"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
+<span id="cb23-6"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
+<span id="cb23-7"><a></a></span>
+<span id="cb23-8"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
+<span id="cb23-9"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
+<span id="cb23-10"><a></a></span>
+<span id="cb23-11"><a></a></span>
+<span id="cb23-12"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
+<span id="cb23-13"><a></a></span>
+<span id="cb23-14"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>)) <span class="co"># 'pear' key does not exist!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="you-got-all-that" class="slide level2" data-background-image="../../images/coding.jpg" data-background-opacity="0.3">
