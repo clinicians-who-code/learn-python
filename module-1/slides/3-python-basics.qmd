@@ -208,6 +208,30 @@ Output (if drug has been prescribed and given)
     * Packages (a collection of modules)
         * `lowercasepackagenames`
 
+## Comments {.smaller}
+
+* Comments are useful in explaining what code is supposed to do.
+* They are essential for when you, and others, need to read your code later to problem solve or add to your code.
+* Use them sparingly, as they can clutter code.
+* Try and make variable and function names self explanatory.
+* You can comment with the hastag or encapsulate with triple quotation marks:
+
+```{.python filename="comments.py"}
+# This is a single line comment
+a_string = "a string"
+
+""" Double quotation mark multiline comment
+    Here is some more of the comment
+"""
+def i_am_a_function():
+    return True
+
+''' Single quotation mark multiline comment
+    Here is some more of the comment
+'''
+def i_am_another_function():
+    return True
+```
 
 ## Basic Operators
 
@@ -231,21 +255,21 @@ Output (if drug has been prescribed and given)
 ## Control flow - if statements
 
 ```{.python filename="if_statement.py"}
-sky = "dark"
+patient_allergy = "amoxicillin"
 
-if sky == "blue":
-    time_of_day = "day time"
-elif sky == "grey"
-    time_of_day = "dusk or dawn"
+if patient_allergy == "amoxicillin":
+    allergy_group = "penicillins"
+elif patient_allergy == "tazocin":
+    allergy_group = "penicillins"
 else:
-    time_of_day = "night time"
+    allergy_group = "others"
 
-print("Time of day is: ", time_of_day)
+print("Patient is allergic to", allergy_group)
 ```
 
 Output
 
-        Time of day is: night time
+        Patient is allergic to penicillins
 
 
 ## Control flow - for loops

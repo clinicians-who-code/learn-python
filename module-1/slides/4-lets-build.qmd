@@ -1,0 +1,13 @@
+---
+title: "Let's build an app"
+subtitle: Module 1
+author: "Clinicians who code"
+format: revealjs
+logo: /images/cwc-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /images/python-scales.jpg
+---
+
+
+## What to build

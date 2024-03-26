@@ -879,7 +879,7 @@
     "href": "module-1/slides/3-python-basics.html#control-flow---if-statements",
     "title": "Python basics",
     "section": "Control flow - if statements",
-    "text": "Control flow - if statements\n\n\nif_statement.py\n\nsky = \"dark\"\n\nif sky == \"blue\":\n    time_of_day = \"day time\"\nelif sky == \"grey\"\n    time_of_day = \"dusk or dawn\"\nelse:\n    time_of_day = \"night time\"\n\nprint(\"Time of day is: \", time_of_day)\n\nOutput\n    Time of day is: night time"
+    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"amoxicillin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"others\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to penicillins"
   },
   {
     "objectID": "module-1/slides/3-python-basics.html#control-flow---for-loops",
@@ -949,7 +949,7 @@
     "href": "module-1/slides/3-python-basics.html#you-got-all-that",
     "title": "Python basics",
     "section": "You got all that?",
-    "text": "You got all that?\n\nNow it is your turn\nTime for some hands on coding in Lesson 2"
+    "text": "You got all that?\n\nNow it is your turn.\nTime for some hands on coding in Lesson 2."
   },
   {
     "objectID": "module-1/slides/3-python-basics.html#computers-are-pedantic",
@@ -957,5 +957,12 @@
     "title": "Python basics",
     "section": "Computers are pedantic!",
     "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#comments",
+    "href": "module-1/slides/3-python-basics.html#comments",
+    "title": "Python basics",
+    "section": "Comments",
+    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code.\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n'''\ndef i_am_another_function():\n    return True"
   }
 ]

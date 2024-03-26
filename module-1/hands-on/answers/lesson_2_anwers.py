@@ -1,22 +1,27 @@
 """ Lesson 1 answers"""
 
 
-def statement(question, answer) -> bool:
+def statement(answer) -> bool:
     """Checks if question and answer match"""
     global all_correct
 
-    question_and_answer_bank: dict[str, str] = {
-        "a comment is": "used to provide helpful information for your later self and others to better understand your code at a later date",
-    }
+    answer_bank: list[str] = [
+        "A comment is used to provide helpful information for your later self and others to better understand your code at a later date",
+        "A variable is a set space in the computer’s memory.",
+        "A dictionary stores key and value pairs.",
+        "A string can store any character on the keyboard.",
+        "snake_case_is_used_for_variables_functions_methods_and_modules.",
+        "CONSTANT_CASE_IS_USED_FOR_CONSTANTS.",
+        "CamelCaseIsUsedForClasses.",
+        "lowercasepackagenamesareusedforpackages.",
+    ]
 
-    if (question, answer) in question_and_answer_bank.items():
-        print(f"* Correct, '{ question } { answer }'!")
+    if answer in answer_bank:
+        print(f"* Correct, '{ answer }'!")
         return True
 
     else:
-        print(
-            f"* Sorry, the following statement is not correct: '{ question } { answer }'"
-        )
+        print(f"* Sorry, the following statement is not correct: '{ answer }'")
         return False
 
     return
