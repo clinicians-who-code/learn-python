@@ -696,7 +696,7 @@ Clinicians who code
 <span id="cb12-14"><a></a>    <span class="cf">return</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="comments-1" class="slide level2">
+<section id="comments-1" class="slide level2 smaller">
 <h2>Comments</h2>
 <ul>
 <li>You will also come across something called docstrings. These are basically comments associated with functions / methods and classes.</li>
@@ -848,7 +848,7 @@ Clinicians who code
 <li>Object oriented programming.</li>
 </ul>
 </section>
-<section id="error-handling" class="slide level2">
+<section id="error-handling" class="slide level2" data-background-image="../../../images/insect-on-leaf.jpg" data-background-opacity="0.3">
 <h2>Error Handling</h2>
 <ul>
 <li>Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of your time <code>debugging</code>.</li>
@@ -878,30 +878,34 @@ Clinicians who code
 <section id="the-traceback" class="slide level2">
 <h2>The Traceback</h2>
 <ul>
-<li><p>At first, this looks like a very complicated output</p>
-<pre><code>  Traceback (most recent call last):
-      File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
-          print(fruit_prices.get_price("pear"))
-      File "/User/a_user/code/error_in_code.py", line 21, in get_price
-          return self._price(fruit)
-      File "/User/a_user/code/error_in_code.py", line 24, in _price
-          return self.prices[fruit]
-  KeyError: 'pear'</code></pre></li>
+<li>At first, this looks like a very complicated output</li>
 </ul>
+<div class="terminal-border">
+<pre><code>    Traceback (most recent call last):
+        File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
+            print(fruit_prices.get_price("pear"))
+        File "/User/a_user/code/error_in_code.py", line 21, in get_price
+            return self._price(fruit)
+        File "/User/a_user/code/error_in_code.py", line 24, in _price
+            return self.prices[fruit]
+    KeyError: 'pear'</code></pre>
+</div>
 </section>
 <section id="the-traceback-1" class="slide level2">
 <h2>The Traceback</h2>
 <ul>
-<li><p>When reading a Traceback, alwas read from the last line up.</p>
-<pre><code>  Traceback (most recent call last):
-      File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
-          print(fruit_prices.get_price("pear"))
-      File "/User/a_user/code/error_in_code.py", line 21, in get_price
-          return self._price(fruit)
-      File "/User/a_user/code/error_in_code.py", line 24, in _price
-          return self.prices[fruit]
-  ==&gt; KeyError: 'pear' &lt;==</code></pre></li>
+<li>When reading a Traceback, alwas read from the last line up.</li>
 </ul>
+<div class="terminal-border">
+<pre><code>    Traceback (most recent call last):
+        File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
+            print(fruit_prices.get_price("pear"))
+        File "/User/a_user/code/error_in_code.py", line 21, in get_price
+            return self._price(fruit)
+        File "/User/a_user/code/error_in_code.py", line 24, in _price
+            return self.prices[fruit]
+    ==&gt; KeyError: 'pear' &lt;==</code></pre>
+</div>
 </section>
 <section id="compare-the-traceback-to-the-code" class="slide level2">
 <h2>Compare the Traceback to the code</h2>
@@ -914,18 +918,19 @@ Clinicians who code
 </div>
 <div class="sourceCode" id="cb25" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a><span class="kw">class</span> FruitPrices:</span>
 <span id="cb25-2"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
-<span id="cb25-3"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
-<span id="cb25-4"><a></a></span>
-<span id="cb25-5"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
-<span id="cb25-6"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
-<span id="cb25-7"><a></a></span>
-<span id="cb25-8"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
-<span id="cb25-9"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
-<span id="cb25-10"><a></a></span>
+<span id="cb25-3"><a></a>        <span class="co"># 'pear' key does not exist!</span></span>
+<span id="cb25-4"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
+<span id="cb25-5"><a></a></span>
+<span id="cb25-6"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
+<span id="cb25-7"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
+<span id="cb25-8"><a></a></span>
+<span id="cb25-9"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
+<span id="cb25-10"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
 <span id="cb25-11"><a></a></span>
-<span id="cb25-12"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
-<span id="cb25-13"><a></a></span>
-<span id="cb25-14"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>)) <span class="co"># 'pear' key does not exist!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb25-12"><a></a></span>
+<span id="cb25-13"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
+<span id="cb25-14"><a></a></span>
+<span id="cb25-15"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="you-got-all-that" class="slide level2" data-background-image="../../../images/coding.jpg" data-background-opacity="0.3">
@@ -939,7 +944,7 @@ Clinicians who code
 <h2>Computers are pedantic!</h2>
 <ul>
 <li><strong>Remember</strong> that computers think in <code>True</code> and <code>False</code>, e.g.&nbsp;<code>1</code> and <code>0</code>s. They are literal thinkers.</li>
-<li>Even one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.</li>
+<li>Even one character being out of place can break an entire code base. So watch out for that <code>unpaired quotation mark</code>, look out for that <code>space</code> that should not be there, and make sure you <code>match your indentations to your if statements</code>.</li>
 <li>Now go have some fun in your tutor groups with hands-on coding and debugging.</li>
 </ul>
 

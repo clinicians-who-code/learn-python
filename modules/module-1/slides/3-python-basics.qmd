@@ -243,7 +243,7 @@ def i_am_another_function():
     return True
 ```
 
-## Comments
+## Comments {.smaller}
 
 * You will also come across something called docstrings. These are basically comments associated with functions / methods and classes.
 * You will see them associated with modules (at the top of files).
@@ -372,7 +372,7 @@ def name_of_function(argument_1, argument_2):
 * File handling, and
 * Object oriented programming.
 
-## Error Handling
+## Error Handling {background-image="/images/insect-on-leaf.jpg" background-opacity="0.3"}
 
 * Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of  your time `debugging`.
 * `Debugging` is the practice of looking for bugs (errors in the code) and trying to fix them.
@@ -399,6 +399,7 @@ Output
 
 * At first, this looks like a very complicated output
 
+<div class="terminal-border">
         Traceback (most recent call last):
             File "/User/a_user/code/error_in_code.py", line 28, in <module>
                 print(fruit_prices.get_price("pear"))
@@ -407,12 +408,13 @@ Output
             File "/User/a_user/code/error_in_code.py", line 24, in _price
                 return self.prices[fruit]
         KeyError: 'pear'
-
+</div>
 
 ## The Traceback
 
 * When reading a Traceback, alwas read from the last line up.
 
+<div class="terminal-border">
         Traceback (most recent call last):
             File "/User/a_user/code/error_in_code.py", line 28, in <module>
                 print(fruit_prices.get_price("pear"))
@@ -421,6 +423,7 @@ Output
             File "/User/a_user/code/error_in_code.py", line 24, in _price
                 return self.prices[fruit]
         ==> KeyError: 'pear' <==
+</div>
 
 
 ## Compare the Traceback to the code
@@ -430,6 +433,7 @@ Output
 ```{.python filename="functions.py"}
 class FruitPrices:
     def __init__(self):
+        # 'pear' key does not exist!
         self.prices = {"apple": 1.55, "banana": 2.44}
 
     def get_price(self, fruit):
@@ -441,7 +445,7 @@ class FruitPrices:
 
 fruit_prices = FruitPrices()
 
-print(fruit_prices.get_price("pear")) # 'pear' key does not exist!
+print(fruit_prices.get_price("pear"))
 ```
 
 ## You got all that? {background-image="/images/coding.jpg" background-opacity="0.3"}
@@ -453,5 +457,5 @@ print(fruit_prices.get_price("pear")) # 'pear' key does not exist!
 ## Computers are pedantic!
 
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
-* Even one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.
+* Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
 * Now go have some fun in your tutor groups with hands-on coding and debugging.

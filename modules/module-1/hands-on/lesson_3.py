@@ -225,7 +225,7 @@ def main():
     creatinine = st.number_input("Creatinine:", step=1)
     age = st.number_input("Age:", step=1)
     gender = st.selectbox("Gender:", ["", "Male", "Female"])
-    race = st.selectbox("Gender:", ["", "Afro-Caribbean", "other"])
+    race = st.selectbox("Race:", ["", "Afro-Caribbean", "other"])
 
     # You now need to handle the exceptions caused by erroneous input variables,
     # eg 'creatinine, age, gender, race'.
@@ -289,7 +289,7 @@ def main():
     creatinine = st.number_input("Creatinine:", step=1)
     age = st.number_input("Age:", step=1)
     gender = st.selectbox("Gender:", ["", "Male", "Female"])
-    race = st.selectbox("Gender:", ["", "Afro-Caribbean", "other"])
+    race = st.selectbox("Race:", ["", "Afro-Caribbean", "other"])
 
     try:
         egfr = calculate_egfr(creatinine, age, gender, race)
@@ -315,55 +315,6 @@ if __name__ == "__main__":
 
 '''
 def calculate_egfr(creatinine, age, gender, race):
-    if gender == "Male":
-        gender_factor = 1
-    elif gender == "Female":
-        gender_factor = 0.742
-    else:
-        raise ValueError(
-            "Invalid gender. Please specify 'Male' for male or 'Female' for female."
-        )
-
-    if race == "Afro-Caribbean":
-        race_factor = 1.212
-    elif race == "other":
-        race_factor = 1
-    else:
-        raise ValueError(
-            "Invalid race. Please specify 'Afro-Caribbean' or 'other'."
-        )
-
-    egfr = (
-        175
-        * ((creatinine * 0.011312) ** (-1.154))
-        * (age ** (-0.203))
-        * gender_factor
-        * race_factor
-    )
-    return int(egfr)
-
-
-# Create a function that takes in as an argument the eGFR and returns the CKD
-# stage. See 'https://www.nhs.uk/conditions/kidney-disease/diagnosis/' for
-# these stages.
-
-
-def calculate_egfr(creatinine, age, gender, race):
-    """Calculate eGFR
-
-    Calculate estimated glomerular filtration rate (eGFR) using serum creatinine levels,
-    age, gender, and race.
-
-    Formula (for adults): eGFR = 175 * ((creatinine × 0.011312) ^ (-1.154)) x (age ^ (-0.203))
-                            x (0.742 if female) x (1.212 if Afro-Caribbean)
-    Args:
-        creatinine: Serum creatinine level (mg/dL)
-        age: Age of the patient
-        gender: Gender of the patient (Male, Female)
-        race: Race of the patient (Afro-Caribbean or other)
-    Returns:
-        float: Estimated glomerular filtration rate (eGFR)
-    """
     if gender == "Male":
         gender_factor = 1
     elif gender == "Female":
@@ -427,7 +378,7 @@ def main():
     creatinine = st.number_input("Creatinine:", step=1)
     age = st.number_input("Age:", step=1)
     gender = st.selectbox("Gender:", ["", "Male", "Female"])
-    race = st.selectbox("Gender:", ["", "Afro-Caribbean", "other"])
+    race = st.selectbox("Race:", ["", "Afro-Caribbean", "other"])
 
     try:
         egfr = calculate_egfr(creatinine, age, gender, race)

@@ -84,7 +84,7 @@ def main():
     creatinine = st.number_input("Creatinine:", step=1)
     age = st.number_input("Age:", step=1)
     gender = st.selectbox("Gender:", ["", "Male", "Female"])
-    race = st.selectbox("Gender:", ["", "Afro-Caribbean", "other"])
+    race = st.selectbox("Race:", ["", "Afro-Caribbean", "other"])
 
     try:
         egfr = calculate_egfr(creatinine, age, gender, race)

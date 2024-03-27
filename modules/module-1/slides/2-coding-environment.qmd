@@ -37,7 +37,7 @@ title-slide-attributes:
 
 # Useful terminal (shell) commands
 
-<img src="/images/the-shell.png" alt="The shell" style="border:1px solid black;">
+![](/images/the-shell.png){.bordered fig-align="center" width="max" height="max"}
 
 ## Commands
 
@@ -65,8 +65,7 @@ Pro tip:
 
 * The `ls` command.
 
-
-<img src="/images/command-ls.png" alt="The shell" style="border:1px solid black;">
+![](/images/command-ls.png){.bordered fig-align="center" width="max" height="max"}
 
 
 ## Change directory command
@@ -74,15 +73,13 @@ Pro tip:
 * The `cd` command.
 * `cd ..` takes you back to the previous (parent) folder.
 
-
-<img src="/images/command-cd.png" alt="The shell" style="border:1px solid black;">
+![](/images/command-cd.png){.bordered fig-align="center" width="max" height="max"}
 
 ## Where am I?
 
 * `pwd` is the `print working directory` command.
 
-
-<img src="/images/command-pwd.png" alt="The shell" style="border:1px solid black;">
+![](/images/command-pwd.png){.bordered fig-align="center" width="max" height="max"}
 
 
 # Time to try it out for yourself
@@ -91,8 +88,8 @@ Pro tip:
 
 * We will be using liveshare for the `hands-on` learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment.
 
+![](/images/liveshare.png){width="max" fig-align="center" height="max" border-width="1"}
 
-![](/images/liveshare.png){width="max" height="max" border-width="1"}
 
 ## <span class="hide-title">Codespace view</span>
 

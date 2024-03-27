@@ -1320,21 +1320,21 @@
     "href": "modules/module-1/slides/3-python-basics.html#the-traceback",
     "title": "Python basics",
     "section": "The Traceback",
-    "text": "The Traceback\n\nAt first, this looks like a very complicated output\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n          print(fruit_prices.get_price(\"pear\"))\n      File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n          return self._price(fruit)\n      File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n          return self.prices[fruit]\n  KeyError: 'pear'"
+    "text": "The Traceback\n\nAt first, this looks like a very complicated output\n\n\n    Traceback (most recent call last):\n        File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n            print(fruit_prices.get_price(\"pear\"))\n        File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n            return self._price(fruit)\n        File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n            return self.prices[fruit]\n    KeyError: 'pear'"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#the-traceback-1",
     "href": "modules/module-1/slides/3-python-basics.html#the-traceback-1",
     "title": "Python basics",
     "section": "The Traceback",
-    "text": "The Traceback\n\nWhen reading a Traceback, alwas read from the last line up.\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n          print(fruit_prices.get_price(\"pear\"))\n      File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n          return self._price(fruit)\n      File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n          return self.prices[fruit]\n  ==&gt; KeyError: 'pear' &lt;=="
+    "text": "The Traceback\n\nWhen reading a Traceback, alwas read from the last line up.\n\n\n    Traceback (most recent call last):\n        File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n            print(fruit_prices.get_price(\"pear\"))\n        File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n            return self._price(fruit)\n        File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n            return self.prices[fruit]\n    ==&gt; KeyError: 'pear' &lt;=="
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#compare-the-traceback-to-the-code",
     "href": "modules/module-1/slides/3-python-basics.html#compare-the-traceback-to-the-code",
     "title": "Python basics",
     "section": "Compare the Traceback to the code",
-    "text": "Compare the Traceback to the code\n\nCompare against the code\n\n\n\nfunctions.py\n\nclass FruitPrices:\n    def __init__(self):\n        self.prices = {\"apple\": 1.55, \"banana\": 2.44}\n\n    def get_price(self, fruit):\n        return self._price(fruit)\n\n    def _price(self, fruit):\n        return self.prices[fruit]\n\n\nfruit_prices = FruitPrices()\n\nprint(fruit_prices.get_price(\"pear\")) # 'pear' key does not exist!"
+    "text": "Compare the Traceback to the code\n\nCompare against the code\n\n\n\nfunctions.py\n\nclass FruitPrices:\n    def __init__(self):\n        # 'pear' key does not exist!\n        self.prices = {\"apple\": 1.55, \"banana\": 2.44}\n\n    def get_price(self, fruit):\n        return self._price(fruit)\n\n    def _price(self, fruit):\n        return self.prices[fruit]\n\n\nfruit_prices = FruitPrices()\n\nprint(fruit_prices.get_price(\"pear\"))"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#you-got-all-that",
@@ -1348,12 +1348,12 @@
     "href": "modules/module-1/slides/3-python-basics.html#computers-are-pedantic",
     "title": "Python basics",
     "section": "Computers are pedantic!",
-    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
+    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
   },
   {
     "objectID": "modules/module-1/slides/4-lets-build.html#what-to-build",
     "href": "modules/module-1/slides/4-lets-build.html#what-to-build",
-    "title": "Let’s build a web app",
+    "title": "🎵 Do you want to build a web app? 🎵",
     "section": "What to build",
     "text": "What to build"
   },
@@ -1370,5 +1370,117 @@
     "title": "Module 1 - Where is the on switch?",
     "section": "Chose a slide deck",
     "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build an app"
+  },
+  {
+    "objectID": "modules/module-1/slides/5-session-close.html#what-to-build",
+    "href": "modules/module-1/slides/5-session-close.html#what-to-build",
+    "title": "Session close",
+    "section": "What to build",
+    "text": "What to build"
+  },
+  {
+    "objectID": "modules/module-1/slides/5-session-close.html#many-thanks",
+    "href": "modules/module-1/slides/5-session-close.html#many-thanks",
+    "title": "Session close",
+    "section": "Many thanks",
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete the feedback before you leave.\nPlease join us for more advanced courses, due out soon."
+  },
+  {
+    "objectID": "modules/module-1/slides/4-lets-build.html#streamlit",
+    "href": "modules/module-1/slides/4-lets-build.html#streamlit",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Streamlit",
+    "text": "Streamlit\n\nWe will be using a web app development python framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for your to carry out a task (in this case building a web app)."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#todays-hands-on-sessions",
+    "href": "modules/module-1/slides/2-coding-environment.html#todays-hands-on-sessions",
+    "title": "Coding environment (and the shell)",
+    "section": "Today’s hands-on sessions",
+    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment should be synonymous with the teaching environment."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-light-theme",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-light-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace light theme",
+    "text": "Codespace light theme"
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-dark-theme",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-dark-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace dark theme",
+    "text": "Codespace dark theme"
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-layout",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-layout",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace layout",
+    "text": "Codespace layout"
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#commands",
+    "href": "modules/module-1/slides/2-coding-environment.html#commands",
+    "title": "Coding environment (and the shell)",
+    "section": "Commands",
+    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in to printing, changing settings, and updating the operating system."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#using-the-terminal",
+    "href": "modules/module-1/slides/2-coding-environment.html#using-the-terminal",
+    "title": "Coding environment (and the shell)",
+    "section": "Using the terminal",
+    "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#list-files-and-folders-command",
+    "href": "modules/module-1/slides/2-coding-environment.html#list-files-and-folders-command",
+    "title": "Coding environment (and the shell)",
+    "section": "List files and folders command",
+    "text": "List files and folders command\n\nThe ls command."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#change-directory-command",
+    "href": "modules/module-1/slides/2-coding-environment.html#change-directory-command",
+    "title": "Coding environment (and the shell)",
+    "section": "Change directory command",
+    "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#where-am-i",
+    "href": "modules/module-1/slides/2-coding-environment.html#where-am-i",
+    "title": "Coding environment (and the shell)",
+    "section": "Where am I?",
+    "text": "Where am I?\n\npwd is the print working directory command."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#liveshare",
+    "href": "modules/module-1/slides/2-coding-environment.html#liveshare",
+    "title": "Coding environment (and the shell)",
+    "section": "LiveShare",
+    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-view",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-view",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace view",
+    "text": "Codespace view"
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#lession-1",
+    "href": "modules/module-1/slides/2-coding-environment.html#lession-1",
+    "title": "Coding environment (and the shell)",
+    "section": "Lession 1",
+    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd /workspaces/learn-python/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python3 lession_1.py\n\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+  },
+  {
+    "objectID": "modules/module-1/slides/4-lets-build.html#preinstalled-for-you",
+    "href": "modules/module-1/slides/4-lets-build.html#preinstalled-for-you",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Preinstalled for you",
+    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the modules/module-1/hands-on folder, run this code:\n\n\n    $ streamlit run lesson_3.py"
   }
 ]
