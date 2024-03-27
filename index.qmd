@@ -6,4 +6,4 @@ Welcome to the Clinicians who code (CWC) course on learning how to code. This co
 
 ## Modules
 
-* [Module 1](module-1/index.qmd)
+* [Module 1](module-1/index.html)
