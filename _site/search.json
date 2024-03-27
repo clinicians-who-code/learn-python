@@ -978,5 +978,54 @@
     "title": "Python basics",
     "section": "Comments",
     "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        x: the addition of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#introduction",
+    "href": "modules/module-1/slides/1-introduction.html#introduction",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#the-coding-environment",
+    "href": "modules/module-1/slides/1-introduction.html#the-coding-environment",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "The coding environment",
+    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#python-basics",
+    "href": "modules/module-1/slides/1-introduction.html#python-basics",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Python Basics",
+    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
+    "href": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Why learn to code?",
+    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to understand and practice clinical medicine, why not the base subject to understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "href": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "How can you use your coding skills in health care?",
+    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nData transfer\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed anything digital"
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#tutor-groups",
+    "href": "modules/module-1/slides/1-introduction.html#tutor-groups",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
+    "href": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Off we go to the shell",
+    "text": "Off we go to the shell"
   }
 ]

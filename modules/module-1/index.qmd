@@ -1,5 +1,5 @@
 ---
-title: "Module 1 - Where is the one switch"
+title: "Module 1 - Where is the on switch?"
 ---
 
 This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies).
