@@ -47,7 +47,7 @@ title-slide-attributes:
 ## So how do we communicate with computers?{background-image="/images/digital-self.jpg" background-opacity="0.3"}
 
 * So computers listen, think and talk in binary.
-* We need a method to communicate with them, to get them to do what we want them to do.
+* We need a method to communicate with them, enabling us to get them to do what we want them to do.
 * This is where programming languages come into play.
 
 
@@ -69,17 +69,17 @@ title-slide-attributes:
 
 * When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into `1`s and `0`s which the computer can then read and act upon.
 
-# <span style="font-size: smaller;">OK, so you can write some code. What do you put in the code. How do you tell the computer what to do?</span> {background-image="/images/barren-land.jpg" background-opacity="0.4"}
+# <span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span> {background-image="/images/barren-land.jpg" background-opacity="0.4"}
 
 
 ## We will be learning python
 
 ![](/images/python-logo.png){fig-align="center"}
 
-## Python programming language{background-image="/images/python-logo.png" background-opacity="0.3"}
+## The Python programming language{background-image="/images/python-logo.png" background-opacity="0.3"}
 
 * Python is a scripting language interpreted and compiled at runtime.
-* Its syntax emphasizes readability and simplicity, utilizing indentation for code structuring.
+* Its syntax emphasises readability and simplicity, utilising indentation for code structuring.
 * Python supports various programming paradigms, including procedural, object-oriented, and functional.
 * With a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation.
 
@@ -98,7 +98,7 @@ title-slide-attributes:
 
 ## Variables
 
-* A single variable is a set space in the computer's memory.
+* A single variable is a contained space in the computer's memory.
 * Simple in-built variables include:
 
 ```{.python filename="variables_simple.py"}
@@ -141,18 +141,18 @@ Syntax error:
 
 ## Double or single quotation marks?
 
-* You will see people using 'single' and also "double" quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors
+* You will see people using 'single' and also "double" quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors.
 
 ```{.python filename="quotation_marks.py"}
 variable_a = "All good here with two single qoutation marks"
 variable_b = "I have the wrong matching qoutation marks'
-variable_c = 'Single qoutation marks'
+variable_c = 'Single quotation marks'
 ```
 
 * Suddenly `variable_c` is part of the string for `variable_b`
 
 
-## Using both types of Quotation marks
+## Using both types of quotation marks
 
 * You can embed quotation marks within each other
 
@@ -163,7 +163,7 @@ variable_b = 'I would like to show you "this"'
 
 ## f-strings
 
-* Userful to know
+* Useful to know
 
 ```{.python filename="f_string.py"}
 age = 25
@@ -222,7 +222,7 @@ Output (if drug has been prescribed and given)
 * There are several naming conventions for programming languages. In python, conventions are:
     * Variables, functions and methods
         * `snake_case`
-    * Contants
+    * Constants
         * `CONSTANT_CASE`
     * Classes (a higher organisation method in python)
         * `CamelCase`
@@ -234,7 +234,7 @@ Output (if drug has been prescribed and given)
 ## Comments {.smaller}
 
 * Comments are useful in explaining what code is supposed to do.
-* They are essential for when you, and others, need to read your code later to problem solve or add to your code.
+* They are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).
 * Use them sparingly, as they can clutter code.
 * Try and make variable and function names self explanatory.
 * You can comment with the hastag or encapsulate with triple quotation marks:
@@ -259,8 +259,8 @@ def i_am_another_function():
 
 ## Comments {.smaller}
 
-* You will also come across something called docstrings. These are basically comments associated with functions / methods and classes.
-* You will see them associated with modules (at the top of files).
+* You will also come across something called `docstrings`. These are basically comments associated with functions / methods and classes.
+* You will see them associated with modules as well (at the top of files).
 
 ```{.python filename="docstrings.py"}
 def i_am_function(args1, args2):
@@ -281,7 +281,7 @@ def i_am_function(args1, args2):
 ```
 
 
-## Basic Operators
+## Basic operators {background-image="/images/blackboard-and-equations.jpg" background-opacity="0.2"}
 
 * Operators manipulate and compare data (which are stored in variables). Operator types include:
     * Arithmetic: `+ - * /`
@@ -290,7 +290,7 @@ def i_am_function(args1, args2):
     * Assignment: `= += -= *=`
 
 
-## More Advanced Operators
+## More advanced operators {background-image="/images/blackboard-and-equations.jpg" background-opacity="0.2"}
 
 * These include:
     * Bitwise: `& | ^ << >>`
@@ -300,7 +300,7 @@ def i_am_function(args1, args2):
 # <span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span> {background-image="/images/river-close-up.jpg" background-opacity="0.4"}
 
 
-## Control flow - if statements
+## Control flow - if statements 
 
 ```{.python filename="if_statement.py"}
 patient_allergy = "amoxicillin"
@@ -357,9 +357,9 @@ Output
 ## Functions (methods) {background-image="/images/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 
-* Help in organizing code and making it more modular.
+* Help in organising code and making it more modular.
 * Part of the `DRY` (`don't repeat yourself`) philosophy.
-* A `method` is just a function, used within a class (a higher organisation method in python).
+* A `method` is just a function, used within a class (a higher organisational entity in python).
 
 
 ## Functions (methods)
@@ -381,10 +381,11 @@ def name_of_function(argument_1, argument_2):
     * classes
     * modules
     * packages
-* There are also some fancy syntax practices,
-* Reading inputs from the terminal,
-* File handling, and
-* Object oriented programming.
+* There are also:
+    * Some fancy syntax practices
+    * Reading inputs from the terminal
+    * File handling
+    * Object oriented programming
 
 ## Error Handling {background-image="/images/insect-on-leaf.jpg" background-opacity="0.3"}
 
@@ -428,7 +429,7 @@ Output
 
 ## The Traceback
 
-* When reading a Traceback, alwas read from the last line up.
+* When reading a Traceback, alwas read from the last line upwards.
 
 <div class="terminal-border">
         Traceback (most recent call last):

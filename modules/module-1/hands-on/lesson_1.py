@@ -1,6 +1,7 @@
 """ Lesson 1 
 Some basic terminal and python exercises
-Gotten stuck, look at the slides at 
+Gotten stuck, look at the slides at:
+https://clinicians-who-code.github.io/learn-python/modules/module-1/
 """
 
 """Exercise 1
@@ -31,6 +32,6 @@ Run a terminal command to show what is your current directory path.
 """
 
 """Finished
-Let your tutor know when you have finished the above. We will restart go to
-next session when everyone is finished with this exercise.
+Let your tutor know when you have finished the above. We start the next session
+when everyone is finished with this exercise.
 """

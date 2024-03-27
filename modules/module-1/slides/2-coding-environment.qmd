@@ -10,14 +10,14 @@ title-slide-attributes:
     data-background-opacity: "0.5"
 ---
 
-# The coding environment
+# The coding environment {background-image="/images/bamboo-woods.jpg" background-opacity="0.2"}
 
 
 ## Today's hands-on sessions {background-image="/images/bamboo-woods.jpg" background-opacity="0.2"}
 
 * We will be using the GitHub `Codespace` development environment.
 * This is a browser version of the well known desktop `VS Code` development environment.
-* In the context of this course, a development environment should be synonymous with the `teaching environment`.
+* In the context of this course, a development environment is synonymous with the `teaching environment`.
 
 
 ## <span class="hide-title">Codespace light theme</span>
@@ -42,7 +42,7 @@ title-slide-attributes:
 ## Commands {background-image="/images/command-button.jpg" background-opacity="0.2"}
 
 * A command is a piece of code that carries out a `specific task`.
-* These tasks can be as simple as showing you what folder you are in to printing, changing settings, and updating the operating system.
+* These tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system.
 
 
 ## Using the terminal {.smaller}
@@ -109,9 +109,10 @@ Pro tip:
 * Run the following command in the new directory 
 
 ```
-    $ python3 lession_1.py
+    $ python lession_1.py
 ```
 
+* Did it work? If so, open up the lession_1.py file.
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
 * We will give you 20 minutes for lession 1.

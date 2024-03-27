@@ -37,10 +37,10 @@ Uncomment the correct answers
 """
 
 # statement("A variable is a set space in the computer’s memory.")
-# statement("Afloat can", "store lists of numbers.")
-# statement("A dictionary stores", "key and value pairs.")
-# statement("A string can ", "store any character on the keyboard.")
-# statement("A boolean can", "store True, False and maybe.")
+# statement("A float can store lists of numbers.")
+# statement("A dictionary stores key and value pairs.")
+# statement("A string can store any character on the keyboard.")
+# statement("A boolean can store True, False and maybe.")
 
 """Exercise 3 - spaces
 Uncomment the below code. What happens when you run it from the terminal?
@@ -66,7 +66,7 @@ Why is the below code not printing out anything? Can you fix it?
 
 
 def a_function():
-    print("I am a line of code that wants to be printed!")
+    print("* I am a line of code that wants to be printed!")
     return
 
     a_function()
@@ -95,7 +95,7 @@ elif patient_allergy == "tazocin":
 else:
     allergy_group = "others"
 
-print("Patient is allergic to", allergy_group)
+print("* Patient is allergic to", allergy_group)
 """
 
 """ Exercise 8 - for loops

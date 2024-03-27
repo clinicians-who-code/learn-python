@@ -44,7 +44,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Run the above code and see if you have the nubmer 45 in the browser window
+# Run the above code and see if you have the number 45 in the browser window
 """
 
 """Exercise 3 - time for some arguments
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
 """
 # Add arguements 'creatinine, age, gender, race' to function below
-def calculate_egf():
+def calculate_egfr():
     egfr = 45
     return  # Return a string with 'creatinine, age, gender, race and egfr'
 
@@ -64,7 +64,7 @@ def main():
     st.title("eGFR calculator")
     # Create variables 'creatinine, age, gender, race' with some initial values.
     # Pass arguements 'creatinine, age, gender, race' to the function call below.
-    return_string = calculate_egf()
+    return_string = calculate_egfr()
     st.write(f"{ return_string }")
     return
 
@@ -89,7 +89,7 @@ eGFR = 175 * ((creatinine × 0.011312) ^ (-1.154)) x (age ^ (-0.203))
 """
 
 """
-def calculate_egf(creatinine, age, gender, race):
+def calculate_egfr(creatinine, age, gender, race):
     # Calculate a 'gender_factor' which is 1 for 'Males' and 0.742 for 'Females'
     # If gender is not "Male" or "Female" (python is capitalisation sensitive)
     # then raise an error with:
@@ -113,7 +113,7 @@ def main():
     age = 55
     gender = "Male"
     race = "Afro-Caribbean"
-    egfr = calculate_egf(creatinine, age, gender, race)
+    egfr = calculate_egfr(creatinine, age, gender, race)
     st.write(f"{ egfr }")
     return
 
@@ -131,7 +131,7 @@ if __name__ == "__main__":
 """
 
 """
-def calculate_egf(creatinine, age, gender, race):
+def calculate_egfr(creatinine, age, gender, race):
     if gender == "Male":
         gender_factor = 1
     elif gender == "Female":
@@ -170,7 +170,7 @@ def main():
     # Hint: use 'variable_name = st.selectbox("Display name:", ["", "option 1", "option 2"])'.
     gender = "Male"
     race = "Afro-Caribbean"
-    egfr = calculate_egf(creatinine, age, gender, race)
+    egfr = calculate_egfr(creatinine, age, gender, race)
     st.write(f"{ egfr }")
     return
 
@@ -178,9 +178,9 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Run the above code and make see if a sensible eGFR is displayed in the browser.
-# If you get errors in the terminal and the browse, do not worry, we will fix
-# these in the next exercise.
+# Run the above code and make see if a sensible eGFR is displayed in the browser 
+# after entering some data. If you get errors in the terminal and the browser, do
+# not worry, we will fix these in the next exercise.
 """
 
 """Exercise 6 - errors, you should sort them out!
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 """
 
 """
-def calculate_egf(creatinine, age, gender, race):
+def calculate_egfr(creatinine, age, gender, race):
     if gender == "Male":
         gender_factor = 1
     elif gender == "Female":
@@ -232,7 +232,7 @@ def main():
     # You do this with the 'try, except, else' exception handlers.
     # With the except clause, you should display an appropriate message to the
     # Browser.
-    egfr = calculate_egf(creatinine, age, gender, race)
+    egfr = calculate_egfr(creatinine, age, gender, race)
     st.write(f"{ egfr }")
     return
 
@@ -241,6 +241,7 @@ if __name__ == "__main__":
     main()
 
 # Run the above code and make see if a sensible eGFR is displayed in the browser.
+# Make sure an appropriate message is displayed if the input data is erroneous.
 """
 
 """Exercise 7 - don't forget about the stages!
