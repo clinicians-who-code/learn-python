@@ -102,7 +102,7 @@ Pro tip:
 * Change the directory (don't type the `$`. This is just how we show this is the command line):
 
 ```
-    $ cd users/{your_name}/module-1/hands-on
+    $ cd users/{your_name}/modules/module-1/hands-on
 ```
 
 * Replace `{your_name}` with your own name in the format `firstname underscore lastname`, eg `john_doe`.

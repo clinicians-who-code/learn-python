@@ -193,7 +193,7 @@
     "href": "index.html#modules",
     "title": "learn python",
     "section": "Modules",
-    "text": "Modules\n\nModule 1"
+    "text": "Modules\n\nModule 1 - Where is the on switch?"
   },
   {
     "objectID": "module-1/slides/2-coding-environment.html",
@@ -1369,7 +1369,7 @@
     "href": "modules/module-1/index.html#chose-a-slide-deck",
     "title": "Module 1 - Where is the on switch?",
     "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build an app"
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app\n\n\n5 - Session close"
   },
   {
     "objectID": "modules/module-1/slides/5-session-close.html#what-to-build",
@@ -1383,7 +1383,7 @@
     "href": "modules/module-1/slides/5-session-close.html#many-thanks",
     "title": "Session close",
     "section": "Many thanks",
-    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete the feedback before you leave.\nPlease join us for more advanced courses, due out soon."
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
   },
   {
     "objectID": "modules/module-1/slides/4-lets-build.html#streamlit",
@@ -1474,7 +1474,7 @@
     "href": "modules/module-1/slides/2-coding-environment.html#lession-1",
     "title": "Coding environment (and the shell)",
     "section": "Lession 1",
-    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd /workspaces/learn-python/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python3 lession_1.py\n\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python3 lession_1.py\n\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
   },
   {
     "objectID": "modules/module-1/slides/4-lets-build.html#preinstalled-for-you",
@@ -1482,5 +1482,33 @@
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Preinstalled for you",
     "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the modules/module-1/hands-on folder, run this code:\n\n\n    $ streamlit run lesson_3.py"
+  },
+  {
+    "objectID": "modules/module-1/slides/5-session-close.html",
+    "href": "modules/module-1/slides/5-session-close.html",
+    "title": "Session close",
+    "section": "",
+    "text": "Many thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#build-an-app",
+    "href": "modules/module-1/slides/1-introduction.html#build-an-app",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Build an app",
+    "text": "Build an app\n\nFinally, we will get you building your own clinical app"
+  },
+  {
+    "objectID": "modules/module-1/slides/3-python-basics.html#we-will-be-learning-python",
+    "href": "modules/module-1/slides/3-python-basics.html#we-will-be-learning-python",
+    "title": "Python basics",
+    "section": "We will be learning python",
+    "text": "We will be learning python"
+  },
+  {
+    "objectID": "modules/module-1/slides/3-python-basics.html#python-programming-language",
+    "href": "modules/module-1/slides/3-python-basics.html#python-programming-language",
+    "title": "Python basics",
+    "section": "Python programming language",
+    "text": "Python programming language\n\nPython is a scripting language interpreted and compiled at runtime.\nIts syntax emphasizes readability and simplicity, utilizing indentation for code structuring.\nPython supports various programming paradigms, including procedural, object-oriented, and functional.\nWith a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation."
   }
 ]

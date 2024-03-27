@@ -11,7 +11,7 @@ title-slide-attributes:
 ---
 
 
-## What to build?
+## What to build
 
 ![](/images/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 
@@ -26,7 +26,7 @@ title-slide-attributes:
 
 * We have preinstalled `Streamlit` on Codespace for you.
 * Time for `lession 3`.
-* Stay in the `modules/module-1/hands-on` folder, run this code:
+* Stay in the `modules/module-1/hands-o`n folder, run this code:
 
 <div class="terminal-border">
         $ streamlit run lesson_3.py
