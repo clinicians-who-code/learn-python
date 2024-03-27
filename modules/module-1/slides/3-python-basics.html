@@ -449,7 +449,7 @@ Clinicians who code
 <h2>So how do we communicate with computers?</h2>
 <ul>
 <li>So computers listen, think and talk in binary.</li>
-<li>We need a method to communicate with them, to get them to do what we want them to do.</li>
+<li>We need a method to communicate with them, enabling us to get them to do what we want them to do.</li>
 <li>This is where programming languages come into play.</li>
 </ul>
 </section>
@@ -477,19 +477,19 @@ Clinicians who code
 </ul>
 </section>
 <section>
-<section id="ok-so-you-can-write-some-code.-what-do-you-put-in-the-code.-how-do-you-tell-the-computer-what-to-do" class="title-slide slide level1 center" data-background-image="../../../images/barren-land.jpg" data-background-opacity="0.4">
-<h1><span style="font-size: smaller;">OK, so you can write some code. What do you put in the code. How do you tell the computer what to do?</span></h1>
+<section id="ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do" class="title-slide slide level1 center" data-background-image="../../../images/barren-land.jpg" data-background-opacity="0.4">
+<h1><span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span></h1>
 
 </section>
 <section id="we-will-be-learning-python" class="slide level2">
 <h2>We will be learning python</h2>
 
 <img data-src="../../../images/python-logo.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="python-programming-language" class="slide level2" data-background-image="../../../images/python-logo.png" data-background-opacity="0.3">
-<h2>Python programming language</h2>
+<section id="the-python-programming-language" class="slide level2" data-background-image="../../../images/python-logo.png" data-background-opacity="0.3">
+<h2>The Python programming language</h2>
 <ul>
 <li>Python is a scripting language interpreted and compiled at runtime.</li>
-<li>Its syntax emphasizes readability and simplicity, utilizing indentation for code structuring.</li>
+<li>Its syntax emphasises readability and simplicity, utilising indentation for code structuring.</li>
 <li>Python supports various programming paradigms, including procedural, object-oriented, and functional.</li>
 <li>With a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation.</li>
 </ul>
@@ -512,7 +512,7 @@ Clinicians who code
 <section id="variables" class="slide level2">
 <h2>Variables</h2>
 <ul>
-<li>A single variable is a set space in the computer’s memory.</li>
+<li>A single variable is a contained space in the computer’s memory.</li>
 <li>Simple in-built variables include:</li>
 </ul>
 <div class="code-with-filename">
@@ -565,7 +565,7 @@ Clinicians who code
 <section id="double-or-single-quotation-marks" class="slide level2">
 <h2>Double or single quotation marks?</h2>
 <ul>
-<li>You will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors</li>
+<li>You will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -573,14 +573,14 @@ Clinicians who code
 </div>
 <div class="sourceCode" id="cb5" data-filename="quotation_marks.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>variable_a <span class="op">=</span> <span class="st">"All good here with two single qoutation marks"</span></span>
 <span id="cb5-2"><a></a>variable_b <span class="op">=</span> <span class="st">"I have the wrong matching qoutation marks'</span></span>
-<span id="cb5-3"><a></a><span class="er">variable_c = 'Single qoutation marks'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-3"><a></a><span class="er">variable_c = 'Single quotation marks'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Suddenly <code>variable_c</code> is part of the string for <code>variable_b</code></li>
 </ul>
 </section>
 <section id="using-both-types-of-quotation-marks" class="slide level2">
-<h2>Using both types of Quotation marks</h2>
+<h2>Using both types of quotation marks</h2>
 <ul>
 <li>You can embed quotation marks within each other</li>
 </ul>
@@ -595,7 +595,7 @@ Clinicians who code
 <section id="f-strings" class="slide level2">
 <h2>f-strings</h2>
 <ul>
-<li>Userful to know</li>
+<li>Useful to know</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -661,7 +661,7 @@ Clinicians who code
 <ul>
 <li><code>snake_case</code></li>
 </ul></li>
-<li>Contants
+<li>Constants
 <ul>
 <li><code>CONSTANT_CASE</code></li>
 </ul></li>
@@ -684,7 +684,7 @@ Clinicians who code
 <h2>Comments</h2>
 <ul>
 <li>Comments are useful in explaining what code is supposed to do.</li>
-<li>They are essential for when you, and others, need to read your code later to problem solve or add to your code.</li>
+<li>They are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).</li>
 <li>Use them sparingly, as they can clutter code.</li>
 <li>Try and make variable and function names self explanatory.</li>
 <li>You can comment with the hastag or encapsulate with triple quotation marks:</li>
@@ -712,8 +712,8 @@ Clinicians who code
 <section id="comments-1" class="slide level2 smaller">
 <h2>Comments</h2>
 <ul>
-<li>You will also come across something called docstrings. These are basically comments associated with functions / methods and classes.</li>
-<li>You will see them associated with modules (at the top of files).</li>
+<li>You will also come across something called <code>docstrings</code>. These are basically comments associated with functions / methods and classes.</li>
+<li>You will see them associated with modules as well (at the top of files).</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -736,8 +736,8 @@ Clinicians who code
 <span id="cb13-15"><a></a>    <span class="cf">return</span> x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="basic-operators" class="slide level2">
-<h2>Basic Operators</h2>
+<section id="basic-operators" class="slide level2" data-background-image="../../../images/blackboard-and-equations.jpg" data-background-opacity="0.2">
+<h2>Basic operators</h2>
 <ul>
 <li>Operators manipulate and compare data (which are stored in variables). Operator types include:
 <ul>
@@ -748,8 +748,8 @@ Clinicians who code
 </ul></li>
 </ul>
 </section>
-<section id="more-advanced-operators" class="slide level2">
-<h2>More Advanced Operators</h2>
+<section id="more-advanced-operators" class="slide level2" data-background-image="../../../images/blackboard-and-equations.jpg" data-background-opacity="0.2">
+<h2>More advanced operators</h2>
 <ul>
 <li>These include:
 <ul>
@@ -825,9 +825,9 @@ Clinicians who code
 <h2>Functions (methods)</h2>
 <ul>
 <li>Blocks of reusable code that perform a specific task.</li>
-<li>Help in organizing code and making it more modular.</li>
+<li>Help in organising code and making it more modular.</li>
 <li>Part of the <code>DRY</code> (<code>don't repeat yourself</code>) philosophy.</li>
-<li>A <code>method</code> is just a function, used within a class (a higher organisation method in python).</li>
+<li>A <code>method</code> is just a function, used within a class (a higher organisational entity in python).</li>
 </ul>
 </section>
 <section id="functions-methods-1" class="slide level2">
@@ -855,10 +855,13 @@ Clinicians who code
 <li>modules</li>
 <li>packages</li>
 </ul></li>
-<li>There are also some fancy syntax practices,</li>
-<li>Reading inputs from the terminal,</li>
-<li>File handling, and</li>
-<li>Object oriented programming.</li>
+<li>There are also:
+<ul>
+<li>Some fancy syntax practices</li>
+<li>Reading inputs from the terminal</li>
+<li>File handling</li>
+<li>Object oriented programming</li>
+</ul></li>
 </ul>
 </section>
 <section id="error-handling" class="slide level2" data-background-image="../../../images/insect-on-leaf.jpg" data-background-opacity="0.3">
@@ -907,7 +910,7 @@ Clinicians who code
 <section id="the-traceback-1" class="slide level2">
 <h2>The Traceback</h2>
 <ul>
-<li>When reading a Traceback, alwas read from the last line up.</li>
+<li>When reading a Traceback, alwas read from the last line upwards.</li>
 </ul>
 <div class="terminal-border">
 <pre><code>    Traceback (most recent call last):

@@ -235,14 +235,14 @@
     "href": "modules/module-1/slides/4-lets-build.html#streamlit",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Streamlit",
-    "text": "Streamlit\n\nWe will be using a web app development python framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for your to carry out a task (in this case building a web app)."
+    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
   },
   {
     "objectID": "modules/module-1/slides/4-lets-build.html#preinstalled-for-you",
     "href": "modules/module-1/slides/4-lets-build.html#preinstalled-for-you",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Preinstalled for you",
-    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the modules/module-1/hands-on folder, run this code:\n\n\n    $ streamlit run lesson_3.py"
+    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the module-1/hands-on folder.\nRun this code:\n\n\n    $ streamlit run lesson_3.py"
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#introduction",
@@ -326,7 +326,7 @@
     "href": "modules/module-1/slides/3-python-basics.html#so-how-do-we-communicate-with-computers",
     "title": "Python basics",
     "section": "So how do we communicate with computers?",
-    "text": "So how do we communicate with computers?\n\nSo computers listen, think and talk in binary.\nWe need a method to communicate with them, to get them to do what we want them to do.\nThis is where programming languages come into play."
+    "text": "So how do we communicate with computers?\n\nSo computers listen, think and talk in binary.\nWe need a method to communicate with them, enabling us to get them to do what we want them to do.\nThis is where programming languages come into play."
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#programming-languages",
@@ -350,11 +350,11 @@
     "text": "We will be learning python"
   },
   {
-    "objectID": "modules/module-1/slides/3-python-basics.html#python-programming-language",
-    "href": "modules/module-1/slides/3-python-basics.html#python-programming-language",
+    "objectID": "modules/module-1/slides/3-python-basics.html#the-python-programming-language",
+    "href": "modules/module-1/slides/3-python-basics.html#the-python-programming-language",
     "title": "Python basics",
-    "section": "Python programming language",
-    "text": "Python programming language\n\nPython is a scripting language interpreted and compiled at runtime.\nIts syntax emphasizes readability and simplicity, utilizing indentation for code structuring.\nPython supports various programming paradigms, including procedural, object-oriented, and functional.\nWith a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation."
+    "section": "The Python programming language",
+    "text": "The Python programming language\n\nPython is a scripting language interpreted and compiled at runtime.\nIts syntax emphasises readability and simplicity, utilising indentation for code structuring.\nPython supports various programming paradigms, including procedural, object-oriented, and functional.\nWith a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation."
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#what-is-in-a-code",
@@ -368,7 +368,7 @@
     "href": "modules/module-1/slides/3-python-basics.html#variables",
     "title": "Python basics",
     "section": "Variables",
-    "text": "Variables\n\nA single variable is a set space in the computer’s memory.\nSimple in-built variables include:\n\n\n\nvariables_simple.py\n\na_string = \"I am a string\"\nan_integer = 11\na_float = 8.04\na_boolean = True"
+    "text": "Variables\n\nA single variable is a contained space in the computer’s memory.\nSimple in-built variables include:\n\n\n\nvariables_simple.py\n\na_string = \"I am a string\"\nan_integer = 11\na_float = 8.04\na_boolean = True"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#variables-1",
@@ -389,21 +389,21 @@
     "href": "modules/module-1/slides/3-python-basics.html#double-or-single-quotation-marks",
     "title": "Python basics",
     "section": "Double or single quotation marks?",
-    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two single qoutation marks\"\nvariable_b = \"I have the wrong matching qoutation marks'\nvariable_c = 'Single qoutation marks'\n\n\nSuddenly variable_c is part of the string for variable_b"
+    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors.\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two single qoutation marks\"\nvariable_b = \"I have the wrong matching qoutation marks'\nvariable_c = 'Single quotation marks'\n\n\nSuddenly variable_c is part of the string for variable_b"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#using-both-types-of-quotation-marks",
     "href": "modules/module-1/slides/3-python-basics.html#using-both-types-of-quotation-marks",
     "title": "Python basics",
-    "section": "Using both types of Quotation marks",
-    "text": "Using both types of Quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'"
+    "section": "Using both types of quotation marks",
+    "text": "Using both types of quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#f-strings",
     "href": "modules/module-1/slides/3-python-basics.html#f-strings",
     "title": "Python basics",
     "section": "f-strings",
-    "text": "f-strings\n\nUserful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")"
+    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#indentation",
@@ -431,35 +431,35 @@
     "href": "modules/module-1/slides/3-python-basics.html#naming-conventions",
     "title": "Python basics",
     "section": "Naming conventions",
-    "text": "Naming conventions\n\nThere are several naming conventions for programming languages. In python, conventions are:\n\nVariables, functions and methods\n\nsnake_case\n\nContants\n\nCONSTANT_CASE\n\nClasses (a higher organisation method in python)\n\nCamelCase\n\nModules (a file with python code inside)\n\nsnake_case\n\nPackages (a collection of modules)\n\nlowercasepackagenames"
+    "text": "Naming conventions\n\nThere are several naming conventions for programming languages. In python, conventions are:\n\nVariables, functions and methods\n\nsnake_case\n\nConstants\n\nCONSTANT_CASE\n\nClasses (a higher organisation method in python)\n\nCamelCase\n\nModules (a file with python code inside)\n\nsnake_case\n\nPackages (a collection of modules)\n\nlowercasepackagenames"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#comments",
     "href": "modules/module-1/slides/3-python-basics.html#comments",
     "title": "Python basics",
     "section": "Comments",
-    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code.\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n'''\ndef i_am_another_function():\n    return True"
+    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n'''\ndef i_am_another_function():\n    return True"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#comments-1",
     "href": "modules/module-1/slides/3-python-basics.html#comments-1",
     "title": "Python basics",
     "section": "Comments",
-    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        x: the addition of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
+    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules as well (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        x: the addition of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#basic-operators",
     "href": "modules/module-1/slides/3-python-basics.html#basic-operators",
     "title": "Python basics",
-    "section": "Basic Operators",
-    "text": "Basic Operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\n\nArithmetic: + - * /\nComparison: == &gt; &lt;\nLogical: and or not\nAssignment: = += -= *="
+    "section": "Basic operators",
+    "text": "Basic operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\n\nArithmetic: + - * /\nComparison: == &gt; &lt;\nLogical: and or not\nAssignment: = += -= *="
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#more-advanced-operators",
     "href": "modules/module-1/slides/3-python-basics.html#more-advanced-operators",
     "title": "Python basics",
-    "section": "More Advanced Operators",
-    "text": "More Advanced Operators\n\nThese include:\n\nBitwise: & | ^ &lt;&lt; &gt;&gt;\nMembership: in   not in\nIdentity: is   is not"
+    "section": "More advanced operators",
+    "text": "More advanced operators\n\nThese include:\n\nBitwise: & | ^ &lt;&lt; &gt;&gt;\nMembership: in   not in\nIdentity: is   is not"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#control-flow---if-statements",
@@ -487,7 +487,7 @@
     "href": "modules/module-1/slides/3-python-basics.html#functions-methods",
     "title": "Python basics",
     "section": "Functions (methods)",
-    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organizing code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisation method in python)."
+    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisational entity in python)."
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#functions-methods-1",
@@ -501,7 +501,7 @@
     "href": "modules/module-1/slides/3-python-basics.html#other-things-to-be-aware-of",
     "title": "Python basics",
     "section": "Other things to be aware of",
-    "text": "Other things to be aware of\n\nThere are several other organisational practices in python, but we will leave these for another day.\nJust so you are aware, these are:\n\nclasses\nmodules\npackages\n\nThere are also some fancy syntax practices,\nReading inputs from the terminal,\nFile handling, and\nObject oriented programming."
+    "text": "Other things to be aware of\n\nThere are several other organisational practices in python, but we will leave these for another day.\nJust so you are aware, these are:\n\nclasses\nmodules\npackages\n\nThere are also:\n\nSome fancy syntax practices\nReading inputs from the terminal\nFile handling\nObject oriented programming"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#error-handling",
@@ -529,7 +529,7 @@
     "href": "modules/module-1/slides/3-python-basics.html#the-traceback-1",
     "title": "Python basics",
     "section": "The Traceback",
-    "text": "The Traceback\n\nWhen reading a Traceback, alwas read from the last line up.\n\n\n    Traceback (most recent call last):\n        File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n            print(fruit_prices.get_price(\"pear\"))\n        File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n            return self._price(fruit)\n        File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n            return self.prices[fruit]\n    ==&gt; KeyError: 'pear' &lt;=="
+    "text": "The Traceback\n\nWhen reading a Traceback, alwas read from the last line upwards.\n\n\n    Traceback (most recent call last):\n        File \"/User/a_user/code/error_in_code.py\", line 28, in &lt;module&gt;\n            print(fruit_prices.get_price(\"pear\"))\n        File \"/User/a_user/code/error_in_code.py\", line 21, in get_price\n            return self._price(fruit)\n        File \"/User/a_user/code/error_in_code.py\", line 24, in _price\n            return self.prices[fruit]\n    ==&gt; KeyError: 'pear' &lt;=="
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#compare-the-traceback-to-the-code",
@@ -557,7 +557,7 @@
     "href": "modules/module-1/slides/2-coding-environment.html#todays-hands-on-sessions",
     "title": "Coding environment (and the shell)",
     "section": "Today’s hands-on sessions",
-    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment should be synonymous with the teaching environment."
+    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment is synonymous with the teaching environment."
   },
   {
     "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-light-theme",
@@ -585,7 +585,7 @@
     "href": "modules/module-1/slides/2-coding-environment.html#commands",
     "title": "Coding environment (and the shell)",
     "section": "Commands",
-    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in to printing, changing settings, and updating the operating system."
+    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system."
   },
   {
     "objectID": "modules/module-1/slides/2-coding-environment.html#using-the-terminal",
@@ -634,7 +634,7 @@
     "href": "modules/module-1/slides/2-coding-environment.html#lession-1",
     "title": "Coding environment (and the shell)",
     "section": "Lession 1",
-    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python3 lession_1.py\n\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python lession_1.py\n\nDid it work? If so, open up the lession_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
   },
   {
     "objectID": "modules/module-1/slides/5-session-close.html#many-thanks",
