@@ -14,137 +14,95 @@
     "text": "Modules\n\nModule 1"
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#todays-hands-on-sessions",
-    "href": "modules/module-1/slides/2-the-shell.html#todays-hands-on-sessions",
+    "objectID": "modules/module-1/slides/4-lets-build.html#what-to-build",
+    "href": "modules/module-1/slides/4-lets-build.html#what-to-build",
+    "title": "Let’s build a web app",
+    "section": "What to build",
+    "text": "What to build"
+  },
+  {
+    "objectID": "modules/module-1/slides/2-coding-environment.html#todays-hands-on-sessions",
+    "href": "modules/module-1/slides/2-coding-environment.html#todays-hands-on-sessions",
     "title": "Coding environment (and the shell)",
     "section": "Today’s hands-on sessions",
     "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment should be synonymous with the teaching environment."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#codespace-light-theme",
-    "href": "modules/module-1/slides/2-the-shell.html#codespace-light-theme",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-light-theme",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-light-theme",
     "title": "Coding environment (and the shell)",
     "section": "Codespace light theme",
     "text": "Codespace light theme"
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#codespace-dark-theme",
-    "href": "modules/module-1/slides/2-the-shell.html#codespace-dark-theme",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-dark-theme",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-dark-theme",
     "title": "Coding environment (and the shell)",
     "section": "Codespace dark theme",
     "text": "Codespace dark theme"
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#codespace-layout",
-    "href": "modules/module-1/slides/2-the-shell.html#codespace-layout",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-layout",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-layout",
     "title": "Coding environment (and the shell)",
     "section": "Codespace layout",
     "text": "Codespace layout"
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#commands",
-    "href": "modules/module-1/slides/2-the-shell.html#commands",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#commands",
+    "href": "modules/module-1/slides/2-coding-environment.html#commands",
     "title": "Coding environment (and the shell)",
     "section": "Commands",
     "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in to printing, changing settings, and updating the operating system."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#using-the-terminal",
-    "href": "modules/module-1/slides/2-the-shell.html#using-the-terminal",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#using-the-terminal",
+    "href": "modules/module-1/slides/2-coding-environment.html#using-the-terminal",
     "title": "Coding environment (and the shell)",
     "section": "Using the terminal",
     "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#list-files-and-folders-command",
-    "href": "modules/module-1/slides/2-the-shell.html#list-files-and-folders-command",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#list-files-and-folders-command",
+    "href": "modules/module-1/slides/2-coding-environment.html#list-files-and-folders-command",
     "title": "Coding environment (and the shell)",
     "section": "List files and folders command",
     "text": "List files and folders command\n\nThe ls command."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#change-directory-command",
-    "href": "modules/module-1/slides/2-the-shell.html#change-directory-command",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#change-directory-command",
+    "href": "modules/module-1/slides/2-coding-environment.html#change-directory-command",
     "title": "Coding environment (and the shell)",
     "section": "Change directory command",
     "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#where-am-i",
-    "href": "modules/module-1/slides/2-the-shell.html#where-am-i",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#where-am-i",
+    "href": "modules/module-1/slides/2-coding-environment.html#where-am-i",
     "title": "Coding environment (and the shell)",
     "section": "Where am I?",
     "text": "Where am I?\n\npwd is the print working directory command."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#liveshare",
-    "href": "modules/module-1/slides/2-the-shell.html#liveshare",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#liveshare",
+    "href": "modules/module-1/slides/2-coding-environment.html#liveshare",
     "title": "Coding environment (and the shell)",
     "section": "LiveShare",
     "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#codespace-view",
-    "href": "modules/module-1/slides/2-the-shell.html#codespace-view",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#codespace-view",
+    "href": "modules/module-1/slides/2-coding-environment.html#codespace-view",
     "title": "Coding environment (and the shell)",
     "section": "Codespace view",
     "text": "Codespace view"
   },
   {
-    "objectID": "modules/module-1/slides/2-the-shell.html#lession-1",
-    "href": "modules/module-1/slides/2-the-shell.html#lession-1",
+    "objectID": "modules/module-1/slides/2-coding-environment.html#lession-1",
+    "href": "modules/module-1/slides/2-coding-environment.html#lession-1",
     "title": "Coding environment (and the shell)",
     "section": "Lession 1",
     "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd /workspaces/learn-python/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python3 lession_1.py\n\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#introduction",
-    "href": "modules/module-1/slides/1-introduction.html#introduction",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "Introduction",
-    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#the-coding-environment",
-    "href": "modules/module-1/slides/1-introduction.html#the-coding-environment",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "The coding environment",
-    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#python-basics",
-    "href": "modules/module-1/slides/1-introduction.html#python-basics",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "Python Basics",
-    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
-    "href": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "Why learn to code?",
-    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to understand and practice clinical medicine, why not the base subject to understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "href": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "How can you use your coding skills in health care?",
-    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nData transfer\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed anything digital"
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#tutor-groups",
-    "href": "modules/module-1/slides/1-introduction.html#tutor-groups",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "Tutor groups",
-    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
-  },
-  {
-    "objectID": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
-    "href": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
-    "section": "Off we go to the shell",
-    "text": "Off we go to the shell"
   },
   {
     "objectID": "modules/module-1/slides/3-python-basics.html#what-are-computers",
@@ -385,11 +343,53 @@
     "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentiations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
   },
   {
-    "objectID": "modules/module-1/slides/4-lets-build.html#what-to-build",
-    "href": "modules/module-1/slides/4-lets-build.html#what-to-build",
-    "title": "Let’s build a web app",
-    "section": "What to build",
-    "text": "What to build"
+    "objectID": "modules/module-1/slides/1-introduction.html#introduction",
+    "href": "modules/module-1/slides/1-introduction.html#introduction",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#the-coding-environment",
+    "href": "modules/module-1/slides/1-introduction.html#the-coding-environment",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "The coding environment",
+    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#python-basics",
+    "href": "modules/module-1/slides/1-introduction.html#python-basics",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Python Basics",
+    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
+    "href": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Why learn to code?",
+    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to understand and practice clinical medicine, why not the base subject to understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "href": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "How can you use your coding skills in health care?",
+    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nData transfer\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed anything digital"
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#tutor-groups",
+    "href": "modules/module-1/slides/1-introduction.html#tutor-groups",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
+  },
+  {
+    "objectID": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
+    "href": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
+    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "section": "Off we go to the shell",
+    "text": "Off we go to the shell"
   },
   {
     "objectID": "modules/module-1/index.html",
@@ -403,6 +403,6 @@
     "href": "modules/module-1/index.html#chose-a-slide-deck",
     "title": "Module 1 - Where is the on switch?",
     "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build an app"
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app"
   }
 ]
