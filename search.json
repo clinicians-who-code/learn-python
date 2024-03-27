@@ -394,15 +394,15 @@
   {
     "objectID": "modules/module-1/index.html",
     "href": "modules/module-1/index.html",
-    "title": "Module 1",
+    "title": "Module 1 - Where is the one switch",
     "section": "",
     "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, and not clinical terminologies)."
   },
   {
     "objectID": "modules/module-1/index.html#chose-a-slide-deck",
     "href": "modules/module-1/index.html#chose-a-slide-deck",
-    "title": "Module 1",
+    "title": "Module 1 - Where is the one switch",
     "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics"
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build an app"
   }
 ]
