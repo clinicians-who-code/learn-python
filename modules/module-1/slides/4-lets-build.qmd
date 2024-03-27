@@ -1,12 +1,13 @@
 ---
-title: "Let's build an app"
+title: "Let's build a web app"
 subtitle: Module 1
 author: "Clinicians who code"
 format: revealjs
 logo: /images/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /images/python-scales.jpg
+    data-background-image: /images/web-app.png
+    data-background-opacity: "0.4"
 ---
 
 
