@@ -39,14 +39,14 @@ def calculate_egfr(creatinine, age, gender, race):
             "Invalid race. Please specify 'Afro-Caribbean' or 'other'."
         )
 
-    eGFR = (
+    egfr = (
         175
         * ((creatinine * 0.011312) ** (-1.154))
         * (age ** (-0.203))
         * gender_factor
         * race_factor
     )
-    return int(eGFR)
+    return int(egfr)
 
 
 def get_ckd_stage(egfr):
@@ -91,9 +91,11 @@ def main():
     except Exception as e:
         st.write(f"Awaiting appropriate inputs")
     else:
-        ckd_stage = get_ckd_stage(egfr)
         st.write(f"eGFR: { egfr }")
+        ckd_stage = get_ckd_stage(egfr)
         st.write(f"CKD stage { ckd_stage }")
+
+    return
 
 
 if __name__ == "__main__":

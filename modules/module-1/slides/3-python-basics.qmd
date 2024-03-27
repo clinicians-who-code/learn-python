@@ -147,6 +147,15 @@ variable_a = "I want to highlight 'this' word"
 variable_b = 'I would like to show you "this"'
 ```
 
+## f-strings
+
+* Userful to know
+
+```{.python filename="f_string.py"}
+age = 25
+print(f"The patient's age is : { age }")
+```
+
 ## Indentation
 
 * Python is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of `tabs`) of expressions shows the computer which previous expression it relates to.
@@ -232,6 +241,30 @@ def i_am_a_function():
 def i_am_another_function():
     return True
 ```
+
+## Comments
+
+* You will also come across something called docstrings. These are basically comments associated with functions / methods and classes.
+* You will see them associated with modules (at the top of files).
+
+```{.python filename="docstrings.py"}
+def i_am_function(args1, args2):
+    """A concise title
+
+    A description of the function.
+
+    Args:
+        args1: I am the first argument to the function.
+        args2: I am the second argument to the function.
+    Returns:
+        x: the addition of the 2 provided arguments.
+    """
+
+    x = args1 + args2
+    
+    return x
+```
+
 
 ## Basic Operators
 

@@ -964,5 +964,19 @@
     "title": "Python basics",
     "section": "Comments",
     "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code.\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n'''\ndef i_am_another_function():\n    return True"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#f-strings",
+    "href": "module-1/slides/3-python-basics.html#f-strings",
+    "title": "Python basics",
+    "section": "f-strings",
+    "text": "f-strings\n\nUserful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")"
+  },
+  {
+    "objectID": "module-1/slides/3-python-basics.html#comments-1",
+    "href": "module-1/slides/3-python-basics.html#comments-1",
+    "title": "Python basics",
+    "section": "Comments",
+    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        x: the addition of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
   }
 ]
