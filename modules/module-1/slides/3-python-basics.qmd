@@ -177,7 +177,7 @@ print(f"The patient's age is : { age }")
 
 ## Indentation
 
-```{.python filename="indentation.py"}
+```{.python filename="indentation.py" code-line-numbers="10"}
 if drug_prescribed == True:
     if drug_given == True:
         record_drug_given = True
@@ -198,7 +198,7 @@ Output (if drug has been prescribed and given)
 
 ## Indentation
 
-```{.python filename="indentation.py"}
+```{.python filename="indentation.py" code-line-numbers="10"}
 if drug_prescribed == True:
     if drug_given == True:
         record_drug_given = True
@@ -447,7 +447,7 @@ Output
 
 * Compare against the code
 
-```{.python filename="functions.py"}
+```{.python filename="functions.py" code-line-numbers="3,4,15"}
 class FruitPrices:
     def __init__(self):
         # 'pear' key does not exist!
