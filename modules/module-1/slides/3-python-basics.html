@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<link href="../../../images/cwc-logo.png" rel="icon" type="image/png">
+<link href="../../../media/cwc-logo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -11,7 +11,7 @@
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.552">
 
-  <meta name="author" content="Clinicians who code">
+  <meta name="author" content="Clinicians-who-code">
   <title>CWC - Python basics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -392,20 +392,20 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-color="#F6D499" data-background-image="../../../images/python-scales.jpg" class="quarto-title-block center">
+<section id="title-slide" data-background-color="#F6D499" data-background-image="../../../media/python-scales.jpg" class="quarto-title-block center">
   <h1 class="title">Python basics</h1>
   <p class="subtitle">Module 1</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Clinicians who code 
+Clinicians-who-code 
 </div>
 </div>
 </div>
 
 </section>
-<section id="what-are-computers" class="slide level2" data-background-image="../../../images/yes-no-hands.jpg" data-background-opacity="0.3">
+<section id="what-are-computers" class="slide level2" data-background-image="../../../media/yes-no-hands.jpg" data-background-opacity="0.3">
 <h2>What are computers?</h2>
 <ul>
 <li>At its core, a computer is essentially a device that answers <code>yes-no questions</code>.</li>
@@ -413,7 +413,7 @@ Clinicians who code
 <li>By asking the computer millions of these yes-no questions, it can calculate answers to very complex questions.</li>
 </ul>
 </section>
-<section id="how-do-computers-think" class="slide level2 smaller" data-background-image="../../../images/old-computer.jpg" data-background-opacity="0.3">
+<section id="how-do-computers-think" class="slide level2 smaller" data-background-image="../../../media/old-computer.jpg" data-background-opacity="0.3">
 <h2>How do computers think?</h2>
 <ul>
 <li>Confused by the last statement? Let me expand…</li>
@@ -434,7 +434,7 @@ Clinicians who code
 <li>The processor of a computer is where all of the <code>thinking</code> takes place.</li>
 </ul>
 </section>
-<section id="how-do-computers-think-1" class="slide level2" data-background-image="../../../images/old-computer.jpg" data-background-opacity="0.3">
+<section id="how-do-computers-think-1" class="slide level2" data-background-image="../../../media/old-computer.jpg" data-background-opacity="0.3">
 <h2>How do computers think?</h2>
 <ul>
 <li>The processor is where these <code>yes-no questions</code> are undertaken.</li>
@@ -445,7 +445,7 @@ Clinicians who code
 <li>Each instruction results in either a <code>True</code> or <code>False</code> <em>answer</em> (aka <code>yes-no answer</code>). The <code>output</code> (aka <em>answer</em>) is also in binary.</li>
 </ul>
 </section>
-<section id="so-how-do-we-communicate-with-computers" class="slide level2" data-background-image="../../../images/digital-self.jpg" data-background-opacity="0.3">
+<section id="so-how-do-we-communicate-with-computers" class="slide level2" data-background-image="../../../media/digital-self.jpg" data-background-opacity="0.3">
 <h2>So how do we communicate with computers?</h2>
 <ul>
 <li>So computers listen, think and talk in binary.</li>
@@ -453,7 +453,7 @@ Clinicians who code
 <li>This is where programming languages come into play.</li>
 </ul>
 </section>
-<section id="programming-languages" class="slide level2 smaller" data-background-image="../../../images/syntax-hard.jpg" data-background-opacity="0.2">
+<section id="programming-languages" class="slide level2 smaller" data-background-image="../../../media/syntax-hard.jpg" data-background-opacity="0.2">
 <h2>Programming languages</h2>
 <ul>
 <li>There are over 9000 programming languages, but much less than this in routine use.</li>
@@ -470,22 +470,22 @@ Clinicians who code
 </ul></li>
 </ul>
 </section>
-<section id="translation" class="slide level2" data-background-image="../../../images/keyboard-of-flags.jpg" data-background-opacity="0.2">
+<section id="translation" class="slide level2" data-background-image="../../../media/keyboard-of-flags.jpg" data-background-opacity="0.2">
 <h2>Translation</h2>
 <ul>
 <li>When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into <code>1</code>s and <code>0</code>s which the computer can then read and act upon.</li>
 </ul>
 </section>
 <section>
-<section id="ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do" class="title-slide slide level1 center" data-background-image="../../../images/barren-land.jpg" data-background-opacity="0.4">
+<section id="ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do" class="title-slide slide level1 center" data-background-image="../../../media/barren-land.jpg" data-background-opacity="0.4">
 <h1><span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span></h1>
 
 </section>
 <section id="we-will-be-learning-python" class="slide level2">
 <h2>We will be learning python</h2>
 
-<img data-src="../../../images/python-logo.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="the-python-programming-language" class="slide level2" data-background-image="../../../images/python-logo.png" data-background-opacity="0.3">
+<img data-src="../../../media/python-logo.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="the-python-programming-language" class="slide level2" data-background-image="../../../media/python-logo.png" data-background-opacity="0.3">
 <h2>The Python programming language</h2>
 <ul>
 <li>Python is a scripting language interpreted and compiled at runtime.</li>
@@ -605,7 +605,7 @@ Clinicians who code
 <span id="cb7-2"><a></a><span class="bu">print</span>(<span class="ss">f"The patient's age is : </span><span class="sc">{</span> age <span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="indentation" class="slide level2" data-background-image="../../../images/steps-and-child.jpg" data-background-opacity="0.4">
+<section id="indentation" class="slide level2" data-background-image="../../../media/steps-and-child.jpg" data-background-opacity="0.4">
 <h2>Indentation</h2>
 <ul>
 <li>Python is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of <code>tabs</code>) of expressions shows the computer which previous expression it relates to.</li>
@@ -736,7 +736,7 @@ Clinicians who code
 <span id="cb13-15"><a></a>    <span class="cf">return</span> x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="basic-operators" class="slide level2" data-background-image="../../../images/blackboard-and-equations.jpg" data-background-opacity="0.2">
+<section id="basic-operators" class="slide level2" data-background-image="../../../media/blackboard-and-equations.jpg" data-background-opacity="0.2">
 <h2>Basic operators</h2>
 <ul>
 <li>Operators manipulate and compare data (which are stored in variables). Operator types include:
@@ -748,7 +748,7 @@ Clinicians who code
 </ul></li>
 </ul>
 </section>
-<section id="more-advanced-operators" class="slide level2" data-background-image="../../../images/blackboard-and-equations.jpg" data-background-opacity="0.2">
+<section id="more-advanced-operators" class="slide level2" data-background-image="../../../media/blackboard-and-equations.jpg" data-background-opacity="0.2">
 <h2>More advanced operators</h2>
 <ul>
 <li>These include:
@@ -760,7 +760,7 @@ Clinicians who code
 </ul>
 </section></section>
 <section>
-<section id="ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" class="title-slide slide level1 center" data-background-image="../../../images/river-close-up.jpg" data-background-opacity="0.4">
+<section id="ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" class="title-slide slide level1 center" data-background-image="../../../media/river-close-up.jpg" data-background-opacity="0.4">
 <h1><span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span></h1>
 
 </section>
@@ -821,7 +821,7 @@ Clinicians who code
     4
     5</code></pre>
 </section>
-<section id="functions-methods" class="slide level2" data-background-image="../../../images/box.jpg" data-background-opacity="0.4">
+<section id="functions-methods" class="slide level2" data-background-image="../../../media/box.jpg" data-background-opacity="0.4">
 <h2>Functions (methods)</h2>
 <ul>
 <li>Blocks of reusable code that perform a specific task.</li>
@@ -864,7 +864,7 @@ Clinicians who code
 </ul></li>
 </ul>
 </section>
-<section id="error-handling" class="slide level2" data-background-image="../../../images/insect-on-leaf.jpg" data-background-opacity="0.3">
+<section id="error-handling" class="slide level2" data-background-image="../../../media/insect-on-leaf.jpg" data-background-opacity="0.3">
 <h2>Error Handling</h2>
 <ul>
 <li>Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of your time <code>debugging</code>.</li>
@@ -949,7 +949,7 @@ Clinicians who code
 <span id="cb25-15"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="you-got-all-that" class="slide level2" data-background-image="../../../images/coding.jpg" data-background-opacity="0.3">
+<section id="you-got-all-that" class="slide level2" data-background-image="../../../media/coding.jpg" data-background-opacity="0.3">
 <h2>You got all that?</h2>
 <ul>
 <li>Now it is your turn.</li>
@@ -965,7 +965,7 @@ Clinicians who code
 </ul>
 
 <div class="quarto-auto-generated-content">
-<p><img src="../../../images/cwc-logo.png" class="slide-logo"></p>
+<p><img src="../../../media/cwc-logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>

@@ -212,16 +212,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "learn python",
+    "title": "Programming in healthcare",
     "section": "",
-    "text": "Welcome to the Clinicians who code (CWC) course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
+    "text": "Welcome to the Programming in healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
   },
   {
     "objectID": "index.html#modules",
     "href": "index.html#modules",
-    "title": "learn python",
+    "title": "Programming in healthcare",
     "section": "Modules",
-    "text": "Modules\n\nModule 1 - Where is the on switch?"
+    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nMore modules to arrive soon"
   },
   {
     "objectID": "modules/module-1/slides/4-lets-build.html#what-to-build",
@@ -247,56 +247,56 @@
   {
     "objectID": "modules/module-1/slides/1-introduction.html#introduction",
     "href": "modules/module-1/slides/1-introduction.html#introduction",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Introduction",
     "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#the-coding-environment",
     "href": "modules/module-1/slides/1-introduction.html#the-coding-environment",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "The coding environment",
     "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#python-basics",
     "href": "modules/module-1/slides/1-introduction.html#python-basics",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Python Basics",
     "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#build-an-app",
     "href": "modules/module-1/slides/1-introduction.html#build-an-app",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Build an app",
     "text": "Build an app\n\nFinally, we will get you building your own clinical app"
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
     "href": "modules/module-1/slides/1-introduction.html#why-learn-to-code",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Why learn to code?",
     "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
     "href": "modules/module-1/slides/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "How can you use your coding skills in health care?",
     "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#tutor-groups",
     "href": "modules/module-1/slides/1-introduction.html#tutor-groups",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Tutor groups",
     "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
   },
   {
     "objectID": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
     "href": "modules/module-1/slides/1-introduction.html#off-we-go-to-the-shell",
-    "title": "Clinicians-who-code course - module 1 - Where is the on switch?",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Off we go to the shell",
     "text": "Off we go to the shell"
   },
@@ -551,6 +551,27 @@
     "title": "Python basics",
     "section": "Computers are pedantic!",
     "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
+  },
+  {
+    "objectID": "modules/module-2/slides/1-introduction.html#introduction",
+    "href": "modules/module-2/slides/1-introduction.html#introduction",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+  },
+  {
+    "objectID": "modules/module-2/index.html",
+    "href": "modules/module-2/index.html",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "",
+    "text": "After learning about the basics about coding and the programming language Python in Module 2 - Let’s take things to the next level"
+  },
+  {
+    "objectID": "modules/module-2/index.html#chose-a-slide-deck",
+    "href": "modules/module-2/index.html#chose-a-slide-deck",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Chose a slide deck",
+    "text": "Chose a slide deck\n\n\n1 - Introduction"
   },
   {
     "objectID": "modules/module-1/slides/2-coding-environment.html#todays-hands-on-sessions",
