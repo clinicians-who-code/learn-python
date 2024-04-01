@@ -1,24 +1,24 @@
 ---
 title: "Python basics"
 subtitle: Module 1
-author: "Clinicians who code"
+author: "{{< var author >}}"
 format: revealjs
-logo: /images/cwc-logo.png
+logo: /media/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
     data-background-color: "#F6D499"
-    data-background-image: /images/python-scales.jpg
+    data-background-image: /media/python-scales.jpg
 ---
 
 
-## What are computers? {background-image="/images/yes-no-hands.jpg" background-opacity="0.3"}
+## What are computers? {background-image="/media/yes-no-hands.jpg" background-opacity="0.3"}
 
 * At its core, a computer is essentially a device that answers `yes-no questions`.
 * It answers these simple questions very very quickly.
 * By asking the computer millions of these yes-no questions, it can calculate answers to very complex questions.
 
 
-## How do computers think? {.smaller background-image="/images/old-computer.jpg" background-opacity="0.3"}
+## How do computers think? {.smaller background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
 * Confused by the last statement? Let me expand...
 * Computers have lots of components to enable them to work. 
@@ -34,7 +34,7 @@ title-slide-attributes:
 * The processor of a computer is where all of the `thinking` takes place.
 
 
-## How do computers think? {background-image="/images/old-computer.jpg" background-opacity="0.3"}
+## How do computers think? {background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
 * The processor is where these `yes-no questions` are undertaken.
 * The processor receives instructions in `binary` form. 
@@ -44,14 +44,14 @@ title-slide-attributes:
 * Each instruction results in either a `True` or `False` *answer* (aka `yes-no answer`). The `output` (aka *answer*) is also in binary.
 
 
-## So how do we communicate with computers?{background-image="/images/digital-self.jpg" background-opacity="0.3"}
+## So how do we communicate with computers?{background-image="/media/digital-self.jpg" background-opacity="0.3"}
 
 * So computers listen, think and talk in binary.
 * We need a method to communicate with them, enabling us to get them to do what we want them to do.
 * This is where programming languages come into play.
 
 
-## Programming languages {.smaller background-image="/images/syntax-hard.jpg" background-opacity="0.2"}
+## Programming languages {.smaller background-image="/media/syntax-hard.jpg" background-opacity="0.2"}
 
 * There are over 9000 programming languages, but much less than this in routine use.
 * A programming language is written in *somewhat* of a human readable form (depends on the langauge).
@@ -65,18 +65,18 @@ title-slide-attributes:
     * Python
 
 
-## Translation {background-image="/images/keyboard-of-flags.jpg" background-opacity="0.2"}
+## Translation {background-image="/media/keyboard-of-flags.jpg" background-opacity="0.2"}
 
 * When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into `1`s and `0`s which the computer can then read and act upon.
 
-# <span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span> {background-image="/images/barren-land.jpg" background-opacity="0.4"}
+# <span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span> {background-image="/media/barren-land.jpg" background-opacity="0.4"}
 
 
 ## We will be learning python
 
-![](/images/python-logo.png){fig-align="center"}
+![](/media/python-logo.png){fig-align="center"}
 
-## The Python programming language{background-image="/images/python-logo.png" background-opacity="0.3"}
+## The Python programming language{background-image="/media/python-logo.png" background-opacity="0.3"}
 
 * Python is a scripting language interpreted and compiled at runtime.
 * Its syntax emphasises readability and simplicity, utilising indentation for code structuring.
@@ -170,7 +170,7 @@ age = 25
 print(f"The patient's age is : { age }")
 ```
 
-## Indentation {background-image="/images/steps-and-child.jpg" background-opacity="0.4"}
+## Indentation {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
 * Python is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of `tabs`) of expressions shows the computer which previous expression it relates to.
 
@@ -281,7 +281,7 @@ def i_am_function(args1, args2):
 ```
 
 
-## Basic operators {background-image="/images/blackboard-and-equations.jpg" background-opacity="0.2"}
+## Basic operators {background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
 * Operators manipulate and compare data (which are stored in variables). Operator types include:
     * Arithmetic: `+ - * /`
@@ -290,14 +290,14 @@ def i_am_function(args1, args2):
     * Assignment: `= += -= *=`
 
 
-## More advanced operators {background-image="/images/blackboard-and-equations.jpg" background-opacity="0.2"}
+## More advanced operators {background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
 * These include:
     * Bitwise: `& | ^ << >>`
     * Membership: `in   not in`
     * Identity: `is   is not`
 
-# <span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span> {background-image="/images/river-close-up.jpg" background-opacity="0.4"}
+# <span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span> {background-image="/media/river-close-up.jpg" background-opacity="0.4"}
 
 
 ## Control flow - if statements 
@@ -354,7 +354,7 @@ Output
         4
         5
 
-## Functions (methods) {background-image="/images/box.jpg" background-opacity="0.4"}
+## Functions (methods) {background-image="/media/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 
 * Help in organising code and making it more modular.
@@ -387,7 +387,7 @@ def name_of_function(argument_1, argument_2):
     * File handling
     * Object oriented programming
 
-## Error Handling {background-image="/images/insect-on-leaf.jpg" background-opacity="0.3"}
+## Error Handling {background-image="/media/insect-on-leaf.jpg" background-opacity="0.3"}
 
 * Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of  your time `debugging`.
 * `Debugging` is the practice of looking for bugs (errors in the code) and trying to fix them.
@@ -465,7 +465,7 @@ fruit_prices = FruitPrices()
 print(fruit_prices.get_price("pear"))
 ```
 
-## You got all that? {background-image="/images/coding.jpg" background-opacity="0.3"}
+## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
 * Now it is your turn.
 * Time for some hands on coding in `Lesson 2`.

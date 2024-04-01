@@ -1,12 +1,12 @@
 ---
 title: "Session close"
 subtitle: "Module 1"
-author: "Clinicians who code"
+author: "{{< var author >}}"
 format: revealjs
-logo: /images/cwc-logo.png
+logo: /media/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /images/tree-and-sunset.jpg
+    data-background-image: /media/tree-and-sunset.jpg
     data-background-opacity: "1"
 include-in-header:
   - text: |
@@ -26,7 +26,7 @@ include-in-header:
       </style>
 ---
 
-## Many thanks {background-image="/images/feedback.jpg" background-opacity="0.3"}
+## Many thanks {background-image="/media/feedback.jpg" background-opacity="0.3"}
 
 * Many thanks for joining us today.
 * We hope you found today's session helpful and a great start / addition to your digital health carer.

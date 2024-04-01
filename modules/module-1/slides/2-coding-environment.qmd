@@ -1,19 +1,19 @@
 ---
 title: "Coding environment (and the shell)"
 subtitle: Module 1
-author: "Clinicians who code"
+author: "{{< var author >}}"
 format: revealjs
-logo: /images/cwc-logo.png
+logo: /media/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /images/egg-shells.jpg
+    data-background-image: /media/egg-shells.jpg
     data-background-opacity: "0.5"
 ---
 
-# The coding environment {background-image="/images/bamboo-woods.jpg" background-opacity="0.2"}
+# The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
 
-## Today's hands-on sessions {background-image="/images/bamboo-woods.jpg" background-opacity="0.2"}
+## Today's hands-on sessions {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
 * We will be using the GitHub `Codespace` development environment.
 * This is a browser version of the well known desktop `VS Code` development environment.
@@ -22,24 +22,24 @@ title-slide-attributes:
 
 ## <span class="hide-title">Codespace light theme</span>
 
-![](/images/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 ## <span class="hide-title">Codespace dark theme</span>
 
-![](/images/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 ## <span class="hide-title">Codespace layout</span>
 
-![](/images/codespace-description.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 # Useful terminal (shell) commands
 
-![](/images/the-shell.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max"}
 
-## Commands {background-image="/images/command-button.jpg" background-opacity="0.2"}
+## Commands {background-image="/media/command-button.jpg" background-opacity="0.2"}
 
 * A command is a piece of code that carries out a `specific task`.
 * These tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system.
@@ -65,7 +65,7 @@ Pro tip:
 
 * The `ls` command.
 
-![](/images/command-ls.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-ls.png){.bordered fig-align="center" width="max" height="max"}
 
 
 ## Change directory command
@@ -73,27 +73,27 @@ Pro tip:
 * The `cd` command.
 * `cd ..` takes you back to the previous (parent) folder.
 
-![](/images/command-cd.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-cd.png){.bordered fig-align="center" width="max" height="max"}
 
 ## Where am I?
 
 * `pwd` is the `print working directory` command.
 
-![](/images/command-pwd.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max"}
 
 
-# Time to try it out for yourself{background-image="/images/dive-into-lake.jpg" background-opacity="0.2"}
+# Time to try it out for yourself{background-image="/media/dive-into-lake.jpg" background-opacity="0.2"}
 
 ## LiveShare
 
 * We will be using liveshare for the `hands-on` learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment.
 
-![](/images/liveshare.png){width="max" fig-align="center" height="max" border-width="1"}
+![](/media/liveshare.png){width="max" fig-align="center" height="max" border-width="1"}
 
 
 ## <span class="hide-title">Codespace view</span>
 
-![](/images/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
 
 ## Lession 1 {.smaller}
 

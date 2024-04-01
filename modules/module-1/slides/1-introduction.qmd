@@ -1,17 +1,17 @@
 ---
-title: "Clinicians-who-code course - module 1 - Where is the on switch?"
-author: "Clinicians who code"
+title: "{{< var module-1 >}}"
+author: "{{< var author >}}"
 format: revealjs
-logo: /images/cwc-logo.png
+logo: /media/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
     data-background-color: "#0D4848"
-    data-background-video: "/images/waves-on-beach.mp4"
+    data-background-video: "/media/waves-on-beach.mp4"
     data-background-video-loop: true
 ---
 
 
-## Introduction {background-image="/images/welcome-sign.jpg" background-opacity="0.4"}
+## Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
 
 * Welcome and thank you for joining our course.
 * We hope you enjoy the course and find it helpful.
@@ -19,7 +19,7 @@ title-slide-attributes:
 * Please provide feedback at the end of the course, so we can help improve things further.
 
 
-## The coding environment {background-image="/images/bamboo-woods.jpg" background-opacity="0.2"}
+## The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
 * We will explore the development (teaching) environment.
 * Get you connected to the development environment.
@@ -44,10 +44,10 @@ title-slide-attributes:
 
 * Finally, we will get you building your own clinical app
 
-![](/images/egfr-web-app.png){ fig-align="center" width="max" height="max"}
+![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 
 
-## Why learn to code? {background-image="/images/why.jpg" background-opacity="0.3"}
+## Why learn to code? {background-image="/media/why.jpg" background-opacity="0.3"}
 
 * We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject to better understand and practice digital medicine?
 * Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.
@@ -65,8 +65,8 @@ title-slide-attributes:
 
 * Indeed, anything digital
 
-## Tutor groups {background-image="/images/teacher-and-blackboard.jpg" background-opacity="0.6"}
+## Tutor groups {background-image="/media/teacher-and-blackboard.jpg" background-opacity="0.6"}
 
 * Has everyone been placed in a tutor group?
 
-## Off we go to the shell {background-image="/images/horses-galloping.jpg" background-opacity="0.6"}
+## Off we go to the shell {background-image="/media/horses-galloping.jpg" background-opacity="0.6"}

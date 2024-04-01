@@ -1,28 +1,28 @@
 ---
 title: "&#127925; Do you want to build a web app? &#127925;"
 subtitle: "Module 1"
-author: "Clinicians who code"
+author: "{{< var author >}}"
 format: revealjs
-logo: /images/cwc-logo.png
+logo: /media/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /images/web-app.png
+    data-background-image: /media/web-app.png
     data-background-opacity: "0.4"
 ---
 
 
 ## What to build?
 
-![](/images/egfr-web-app.png){ fig-align="center" width="max" height="max"}
+![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 
 ## Streamlit
 
 * We will be using a python web app framework called `Streamlit`.
 * Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
 
-![](/images/streamlit.png){fig-align="center"}
+![](/media/streamlit.png){fig-align="center"}
 
-## Preinstalled for you {background-image="/images/computer-and-phone.png" background-opacity="0.3"}
+## Preinstalled for you {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
 
 * We have preinstalled `Streamlit` on Codespace for you.
 * Time for `lession 3`.

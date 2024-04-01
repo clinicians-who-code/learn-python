@@ -3,22 +3,22 @@ title: "Python basics"
 subtitle: Module 1
 author: "Clinicians who code"
 format: revealjs
-logo: /images/cwc-logo.png
+logo: /media/cwc-logo.png
 css: /slides.css
 title-slide-attributes:
     data-background-color: "#F6D499"
-    data-background-image: /images/python-scales.jpg
+    data-background-image: /media/python-scales.jpg
 ---
 
 
-## What are computers? {background-image="/images/yes-no-hands.jpg" background-opacity="0.3"}
+## What are computers? {background-image="/media/yes-no-hands.jpg" background-opacity="0.3"}
 
 * At its core, a computer is essentially a device that answers `yes-no questions`.
 * It answers these simple questions very very quickly.
 * By asking the computer millions of these yes-no questions, it can calculate answers to very complex questions.
 
 
-## How do computers think? {.smaller background-image="/images/old-computer.jpg" background-opacity="0.3"}
+## How do computers think? {.smaller background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
 * Confused by the last statement? Let me expand...
 * Computers have lots of components to enable them to work. 
@@ -34,7 +34,7 @@ title-slide-attributes:
 * The processor of a computer is where all of the `thinking` takes place.
 
 
-## How do computers think? {background-image="/images/old-computer.jpg" background-opacity="0.3"}
+## How do computers think? {background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
 * The processor is where these `yes-no questions` are undertaken.
 * The processor receives instructions in `binary` form. 
@@ -44,14 +44,14 @@ title-slide-attributes:
 * Each instruction results in either a `True` or `False` *answer* (aka `yes-no answer`). The `output` (aka *answer*) is also in binary.
 
 
-## So how do we communicate with computers?{background-image="/images/digital-self.jpg" background-opacity="0.3"}
+## So how do we communicate with computers?{background-image="/media/digital-self.jpg" background-opacity="0.3"}
 
 * So computers listen, think and talk in binary.
 * We need a method to communicate with them, to get them to do what we want them to do.
 * This is where programming languages come into play.
 
 
-## Programming languages {.smaller background-image="/images/syntax-hard.jpg" background-opacity="0.2"}
+## Programming languages {.smaller background-image="/media/syntax-hard.jpg" background-opacity="0.2"}
 
 * There are over 9000 programming languages, but much less than this in routine use.
 * A programming language is written in *somewhat* of a human readable form (depends on the langauge).
@@ -372,7 +372,7 @@ def name_of_function(argument_1, argument_2):
 * File handling, and
 * Object oriented programming.
 
-## Error Handling {background-image="/images/insect-on-leaf.jpg" background-opacity="0.3"}
+## Error Handling {background-image="/media/insect-on-leaf.jpg" background-opacity="0.3"}
 
 * Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of  your time `debugging`.
 * `Debugging` is the practice of looking for bugs (errors in the code) and trying to fix them.
@@ -448,7 +448,7 @@ fruit_prices = FruitPrices()
 print(fruit_prices.get_price("pear"))
 ```
 
-## You got all that? {background-image="/images/coding.jpg" background-opacity="0.3"}
+## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
 * Now it is your turn.
 * Time for some hands on coding in `Lesson 2`.

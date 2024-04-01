@@ -1,9 +1,12 @@
 ---
-title: "learn python"
+title: "{{< var series-title >}}"
 ---
 
-Welcome to the Clinicians who code (CWC) course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer.
+Welcome to the {{< var series-title >}} course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer.
 
 ## Modules
 
-* [Module 1 - Where is the on switch?](modules/module-1/index.html)
+* [{{< var module-1 >}}](modules/module-1/index.html)
+* [{{< var module-2 >}}](modules/module-2/index.html)
+
+More modules to arrive soon
